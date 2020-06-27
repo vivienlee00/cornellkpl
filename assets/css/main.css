@@ -2793,7 +2793,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.65;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -2832,19 +2832,19 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #5c3332;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #6d4945;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #5c4a43;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #7a6856;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -3243,26 +3243,26 @@ input, select, textarea {
 
 		#header.reveal img{
 			transform-origin: left top;
-			animation: scaledown 200ms ease-in-out forwards;
+			animation: scaledown 150ms ease-in-out forwards;
 		}
 		@keyframes scaledown {
 			to {
-				transform: scale(.5) translate(0px,-10.5vh);
+				transform: scale(.35) translate(0px,-15vh);
 			}
 		}
 		@-ms-keyframes scaledown {
 			to {
-				transform: scale(.5) translate(0px,-10.5vh);
+				transform: scale(.35) translate(0px,-15vh);
 			}
 		}
 		@-moz-keyframes scaledown {
 			to {
-				transform: scale(.5) translate(0px,-10.5vh);
+				transform: scale(.35) translate(0px,-15vh);
 			}
 		}
 		@-webkit-keyframes scaledown {
 			to {
-				transform: scale(.5) translate(0px,-10.5vh);
+				transform: scale(.35) translate(0px,-15vh);
 			}
 		}
 
@@ -3995,7 +3995,6 @@ input, select, textarea {
 			bottom: 0;
 			left: 0;
 			overflow: hidden !important;
-			z-index: -100 !important;
 	}
 	
 	.fullscreen-bg__video {
@@ -4008,6 +4007,7 @@ input, select, textarea {
 			min-height: 100%;
 			object-fit: cover;
 			overflow-x: hidden !important;
+			z-index: -100 !important;
 			-webkit-transform: translate(-50%, -50%);
 				 -moz-transform: translate(-50%, -50%);
 					-ms-transform: translate(-50%, -50%);
@@ -4016,11 +4016,17 @@ input, select, textarea {
 	
 	@media (max-width: 767px) {
 			.fullscreen-bg {
-					background: url('images/smokebg.png') center center / cover no-repeat;
+					background: url('../../images/smokebg.png') center center / cover no-repeat;
 			}
 	
 			.fullscreen-bg__video {
 					display: none;
+			}
+			header.reveal #crest {
+				display: none;
+			}
+			header.alt #crest {
+				display: block;
 			}
 	}
 
@@ -4028,4 +4034,17 @@ input, select, textarea {
 		width: 12.5vw;
 		margin-top: 6.9vh;
 		margin-left: 6.3vw;
+	}
+
+	#two .inner{
+		padding: 11em 0 10em 0 !important;
+	}
+
+	#two h2{
+		width: 80vw;
+		overflow-wrap: break-word !important;
+	}
+
+	#two .major{
+		padding: 0 0 1em 0 !important;
 	}
