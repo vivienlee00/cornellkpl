@@ -4014,21 +4014,6 @@ input, select, textarea {
 				transform: translate(-50%, -50%);
 	}
 	
-	@media (max-width: 767px) {
-			.fullscreen-bg {
-					background: url('../../images/smokebg.png') center center / cover no-repeat;
-			}
-	
-			.fullscreen-bg__video {
-					display: none;
-			}
-			header.reveal #crest {
-				display: none;
-			}
-			header.alt #crest {
-				display: block;
-			}
-	}
 
 	#crest{
 		width: 12.5vw;
@@ -4037,7 +4022,7 @@ input, select, textarea {
 	}
 
 	#two .inner{
-		padding: 11em 0 10em 0 !important;
+		padding: 11em 0 10em 0;
 	}
 
 	#two h2{
@@ -4048,3 +4033,26 @@ input, select, textarea {
 	#two .major{
 		padding: 0 0 1em 0 !important;
 	}
+
+	@media (max-width: 767px) {
+		.fullscreen-bg {
+				background: url('../../images/smokebg.png') center center / cover no-repeat;
+		}
+
+		.fullscreen-bg__video {
+				display: none;
+		}
+		header.reveal #crest {
+			display: none;
+		}
+		header.alt #crest {
+			display: block;
+		}
+		#two .inner{
+			padding: 4em 0 3em 0 !important;
+		}
+
+		#two {
+			font-size: 90%;
+		}
+}
