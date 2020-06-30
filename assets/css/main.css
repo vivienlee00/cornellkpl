@@ -2192,9 +2192,8 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
+			/*margin: 15% 0 0 0;*/
+    	width: 100%;
 		}
 
 			.image.fit img {
@@ -2939,7 +2938,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #1c1c1c;
 		}
 
 			.spotlights > section > .image {
@@ -2986,7 +2985,7 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				padding: 2em 3em 0.1em 3em ;
+				padding: 0 3em 0.1em 3em ;
 				width: 70%;
 			}
 
@@ -3241,7 +3240,12 @@ input, select, textarea {
 			animation: reveal-header 0.35s ease;
 		}
 
-		#header.reveal img{
+		#header.reveal #crest{
+			transform-origin: left top;
+			animation: scaledown 150ms ease-in-out forwards;
+		}
+
+		#header.reveal #pagecrest{
 			transform-origin: left top;
 			animation: scaledown 150ms ease-in-out forwards;
 		}
@@ -3308,7 +3312,10 @@ input, select, textarea {
 				color: #87c5a4;
 			}
 
-			#header.alt img{
+			#header.alt #crest{
+				animation: scaleup 20ms ease-in-out forwards;
+			}
+			#header.alt #pagecrest{
 				animation: scaleup 20ms ease-in-out forwards;
 			}
 			@keyframes scaleup {
@@ -3549,6 +3556,12 @@ input, select, textarea {
 
 		#banner.style6:after {
 			background-color: #87c5a4;
+		}
+
+		#banner.rush {
+			background-position-x: center;
+			background-position-y: unset;
+			background-size: cover;
 		}
 
 		body.is-preload #banner:after {
@@ -4015,10 +4028,19 @@ input, select, textarea {
 	}
 	
 
-	#crest{
+
+	#pagecrest {
 		width: 12.5vw;
 		margin-top: 6.9vh;
 		margin-left: 6.3vw;
+		display: none;
+	}
+
+	header.reveal #pagecrest {
+		display: block;
+	}
+	header.alt #pagecrest {
+		display: none;
 	}
 
 	#two .inner{
@@ -4034,7 +4056,26 @@ input, select, textarea {
 		padding: 0 0 1em 0 !important;
 	}
 
-	@media (max-width: 767px) {
+	#rushcards {
+		display: grid;
+		align-items: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		margin-left: 2%;
+		max-width: 35%;
+	}
+
+	#rushinfo .actions {
+		margin: 0 0 .6em -1em !important;
+	}
+
+	#crest{
+		width: 12.5vw;
+		margin-top: 6.9vh;
+		margin-left: 6.3vw;
+	}
+
+	@media (max-width: 980px) {
 		.fullscreen-bg {
 				background: url('../../images/smokebg.png') center center / cover no-repeat;
 		}
@@ -4055,4 +4096,13 @@ input, select, textarea {
 		#two {
 			font-size: 90%;
 		}
+
+		#rushcards {
+			max-width: 100%;
+		}
+
+		#rushcontent {
+			font-size: 90%;
+		}
 }
+
