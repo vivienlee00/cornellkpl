@@ -1,0 +1,997 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Elements</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+  <style>
+    .container {
+      position: relative;
+      max-height: 450px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 7px;
+    }
+
+    .col-3 {
+      padding: 0 0 1em 1em !important;
+    }
+
+    .image {
+      display: block;
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .3s ease;
+      background-color: black;
+      border-radius: 7px;
+    }
+
+    .container:hover .overlay {
+      opacity: 1;
+    }
+
+    .container .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      margin: 15px;
+    }
+
+    .sisterDesc {
+      color: white;
+      font-size: 16px;
+    }
+
+    .tablink:hover {
+      background-color: rgba(41, 0, 0, 0.699);
+    }
+
+    .tablink {
+      height: auto;
+      line-height: 1.3em;
+      padding: .8em 2em;
+    }
+
+    .tabcontent {
+      display: none;
+    }
+  </style>
+</head>
+
+<body class="is-preload">
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+      <a href="index.html" class="logo"></a>
+      <nav>
+        <a href="#menu">Menu</a>
+      </nav>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rush.html">Rush</a></li>
+        <li><a href="actives.html">Active Sisters</a></li>
+        <li><a href="elements.html">Elements</a></li>
+      </ul>
+      <ul class="actions stacked">
+        <li><a href="#" class="button primary fit">Get Started</a></li>
+        <li><a href="#" class="button fit">Log In</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main" class="alt">
+
+      <!-- One -->
+      <section id="one">
+        <div class="inner">
+          <header class="major">
+            <h1>Elements</h1>
+          </header>
+
+          <!-- Content -->
+          <h2 id="content">Sample Content</h2>
+          <div class="row">
+            <div class="col-4 col-12-medium">
+              <h3>Interdum sapien gravida</h3>
+              <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non
+                faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
+                varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+            </div>
+            <div class="col-4 col-12-medium">
+              <h3>Faucibus consequat lorem</h3>
+              <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non
+                faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
+                varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+            </div>
+            <div class="col-4 col-12-medium">
+              <h3>Accumsan montes viverra</h3>
+              <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non
+                faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
+                varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+            </div>
+          </div>
+          <hr class="major" />
+
+          <h1 style="margin-bottom: 60px;">Active Sisters</h1>
+
+          <div class="row" style="margin-bottom: 50px;justify-content: center;">
+            <button class="tablink button small" onclick="openPage('AB', this, 'white')" id="defaultOpen">Spring '18<br>iota Alpha Beta</button>
+            <button class="tablink button small" onclick="openPage('AG', this, 'white')">Fall '18<br>iota Alpha Gamma</button>
+            <button class="tablink button small" onclick="openPage('AD', this, 'white')">Spring '19<br>iota Alpha Delta</button>
+            <button class="tablink button small" onclick="openPage('AE', this, 'white')">Fall '19<br>iota Alpha Epsilon</button>
+            <button class="tablink button small" onclick="openPage('AZ', this, 'white')">Spring '20<br>iota Alpha Zeta</button>
+          </div>
+
+          <div id="AB" class="tabcontent">
+            <div class="row">
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/142.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#142<br>Jasmine *MIU* Ng</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> ORIE / 2021<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Flushing, NY<br>
+                        <b><u>Big:</u></b> Min Young Erika *luciole* Kim<br>
+                        <b><u>Little(s):</u></b> Amber *laveille* Leung<br><br>
+                        <b><u>You will usually find me:<br></u></b> sleeping<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/144.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#144<br>Yuna *maru* Chung</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Hotel Administration / 2021<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Rochelle Park, NJ<br>
+                        <b><u>Big:</u></b> Liz *caritas* Hong<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> chilling in Statler (#HoteliePride)<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/145.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#145<br>Joyee *Millésime* Ng</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Human Biology, Health and Society / 2021<br>
+                        <b><u>Ethnicity:</u></b> Chinese-Malaysian<br>
+                        <b><u>Hometown:</u></b> New York, NY<br>
+                        <b><u>Big:</u></b> Nina *Belle Äme* Lin<br>
+                        <b><u>Little(s):</u></b> Lina *Maélle* Cheung<br><br>
+                        <b><u>You will usually find me:<br></u></b> pulling all-nighters at the Cocktail Lounge<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/146.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#146<br>Jane *eclectic* Park</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Fine Arts / 2021<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Seoul, Korea<br>
+                        <b><u>Big:</u></b> Jinnie *oceanic* Kim<br>
+                        <b><u>Little(s):</u></b> Selena *beatific* Kang<br><br>
+                        <b><u>You will usually find me:<br></u></b> at CTB<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/148.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#148<br>Yein Lillian *Nikka* Lee</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Fine Arts / 2021<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Seoul, Korea<br>
+                        <b><u>Big:</u></b> Maria *Asti* Ding<br>
+                        <b><u>Little(s):</u></b> Brittany *Blue Moon* Lee<br><br>
+                        <b><u>You will usually find me:<br></u></b> in my dorm😉<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/150.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#150<br>Jenny *eidetic* Ng Hong Yu</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Biological Sciences / 2021<br>
+                        <b><u>Ethnicity:</u></b> Hong Kong Chinese<br>
+                        <b><u>Hometown:</u></b> Hong Kong<br>
+                        <b><u>Big:</u></b> Jinnie *oceanic* Kim<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> watching Bob Ross<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/151.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#151<br>Melody *VERVAIN* Na</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Computer Science &amp; Economics / 2021<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Hong Kong<br>
+                        <b><u>Big:</u></b> Samantha *VESPERIA* Wong<br>
+                        <b><u>Little(s):</u></b> Zilin *VRIESEA* Guo<br><br>
+                        <b><u>You will usually find me:<br></u></b> at Terrace or Kungfu Tea or Uris Library<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/152.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#152<br>Grace *Aesa* Han</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Biology &amp; Society / 2021<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Shanghai, China<br>
+                        <b><u>Big:</u></b> Agnes *Euthymia* Shin<br>
+                        <b><u>Little(s):</u></b> Angelina *Orabelle* Huang<br><br>
+                        <b><u>You will usually find me:<br></u></b> on a couch in the library<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/153.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#153<br>So Yon Ariel *MIO* Noh</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Fine Arts / 2021<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Seoul, Korea<br>
+                        <b><u>Big:</u></b> Min Young Erika *luciole* Kim<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> in the art studio or Johnson Museum<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="AG" class="tabcontent">
+            <div class="row">
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/154.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#154<br>Tenzin Seldoen *Corsica* Oshoe</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Nutritional Sciences / 2021<br>
+                        <b><u>Ethnicity:</u></b> Tibetan<br>
+                        <b><u>Hometown:</u></b> Ithaca, NY<br>
+                        <b><u>Big:</u></b> Tenzin *Ramune* Dolma<br>
+                        <b><u>Little(s):</u></b> Angela *kiba* Kou<br><br>
+                        <b><u>You will usually find me:<br></u></b> in the Kroch Asian Library in Olin<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/155.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#155<br>Ever *oneiric* Chae</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Materials Science and Engineering / 2021<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Long Island, NY<br>
+                        <b><u>Big:</u></b> Jinnie *oceanic* Kim<br>
+                        <b><u>Little(s):</u></b> Jing *novaturic* Zhang<br><br>
+                        <b><u>You will usually find me:<br></u></b> working until sun rise<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="AD" class="tabcontent">
+            <div class="row">
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/156.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#156<br>Sarah *NIAGARA* Rim</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> ILR / 2021<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Brooklyn, NY<br>
+                        <b><u>Big:</u></b> Ahyoung *garam* Kim-Lee<br>
+                        <b><u>Little(s):</u></b> Allison *NAIAD* Eng<br><br>
+                        <b><u>You will usually find me:<br></u></b> eating a poke bowl while studying at a library<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/157.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#157<br>Jessica *Mallow* Zheng</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> AEM / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Toronto, Canada<br>
+                        <b><u>Big:</u></b> Gloria *Bella Vita* Ren<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> wearing a baseball cap<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/158.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#158<br>Ling *unix* Cao</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Computer Science / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Staten Island, NY<br>
+                        <b><u>Big:</u></b> Morena *umami* Rong<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> watching Emilie watch Celina sleep at eHub<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/159.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#159<br>Emilie *Arcturus* Guo</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Mechanical Engineering / 2022<br>
+                        <b><u>Ethnicity:</u></b> Taiwanese<br>
+                        <b><u>Hometown:</u></b> Jericho, NY<br>
+                        <b><u>Big:</u></b> Leia *Lalique* Chung<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> watching Celina sleep at eHub<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/160.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#160<br>Angela *kiba* Kou</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> AEM / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Ellicott City, MD<br>
+                        <b><u>Big:</u></b> Seldoen *Corsica* Oshoe<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> enjoying nice weather<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/161.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#161<br>Angelina *Orabelle* Huang</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Biomedical Engineering / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> New York, NY<br>
+                        <b><u>Big:</u></b> Grace *Aesa* Han<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> being sick<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/162.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#162<br>Lauren *chaleur* Chun</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Hotel Administration / 2022<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Paramus, NJ<br>
+                        <b><u>Big:</u></b> Katie *Auxiliary* Shum<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> sleeping at Statler with a smoothie<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/163.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#163<br>Kelly *sappho* Foo</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Computer Science / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Great Neck, NY<br>
+                        <b><u>Big:</u></b> Priscilla *Evangeline* Wong<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> asking someone to elevate me at eHub<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/164.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#164<br>Tracy *Chasselas* Xu</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> ILR / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Beijing, China<br>
+                        <b><u>Big:</u></b> Grace *Symposium* Zhang<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> counting down the days till the next break<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/165.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#165<br>Selena *beatific* Kang</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> ISST / 2022<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Vancouver, Canada<br>
+                        <b><u>Big:</u></b> Jane *eclectic* Park<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> eating for a very long time at eHub<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/166.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#166<br>Celina *MEI* Kim</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Information Science / 2022<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Bayside, NY<br>
+                        <b><u>Big:</u></b> Min Young Erika *luciole* Kim<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> sleeping at eHub<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/167.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#167<br>Vivien *clytemnestra* Lee</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> ISST / 2022<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Forest Hills, NY<br>
+                        <b><u>Big:</u></b> Priscilla *Evangeline* Wong<br>
+                        <b><u>Little(s):</u></b> Tiffany *claire voie* Chen<br><br>
+                        <b><u>You will usually find me:<br></u></b> nowhere. I'm a hermit<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/168.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#168<br>Tong *Factor!al* Li</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> ILR / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Manhattan, NY<br>
+                        <b><u>Big:</u></b> Kristin *Rectify* Chen<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> eating ice cream while watching Wizards of Waverly
+                        Place<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="AE" class="tabcontent">
+            <div class="row">
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/169.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#169<br>Rachel *imugi* Kwon</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Information Science / 2022<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Bayside, NY<br>
+                        <b><u>Big:</u></b> Bonnie *Rolex* Kim<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> running to class late and stressed<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/170.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#170<br>Nicole *SYRE* Hu</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Fashion Management / 2022<br>
+                        <b><u>Ethnicity:</u></b> Korean &amp; Chinese<br>
+                        <b><u>Hometown:</u></b> Mountain View, CA<br>
+                        <b><u>Big:</u></b> Hye Won *Moonwalk* Kim<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> dancing or eating my weight in bbq ribs<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/171.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#171<br>Jennifer *mellis* Guo</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Biological Sciences / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Millburn, NJ<br>
+                        <b><u>Big:</u></b> Emily *abelha* Chen<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> in Starbucks or Olin basement studying<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/172.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#172<br>Brittany *Blue Moon* Lee</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> PAM / 2022<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Seoul, Korea<br>
+                        <b><u>Big:</u></b> Yein Lillian *Nikka* Lee<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> napping after class<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/173.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#173<br>Jing *novaturic* Zhang</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> ORIE / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Manhattan, NY<br>
+                        <b><u>Big:</u></b> Ever *oneiric* Chae<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> wearing one airpod<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/174.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#174<br>Willa *blanc* Chen</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> AEM / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Brooklyn, NY<br>
+                        <b><u>Big:</u></b> Michelle *léda* Huang<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> napping in one of the independent study rooms in
+                        Mann<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/175.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#175<br>Stephanie *petrichor* Yang</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> ILR / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Hong Kong<br>
+                        <b><u>Big:</u></b> Stephanie *petrichor* Yang<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> in Olin basement or Kroch :)<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/176.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#176<br>Michelle *Iolite* Li</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> PAM / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> St. Louis, MO<br>
+                        <b><u>Big:</u></b> Yanis *Querencia* Park<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> napping in a library<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/177.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#177<br>Amanda *Indica* Wang</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Computer Science / 2022<br>
+                        <b><u>Ethnicity:</u></b> Taiwanese<br>
+                        <b><u>Hometown:</u></b> Basking Ridge, NJ<br>
+                        <b><u>Big:</u></b> Cara *Inoxia* Huang<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> deciding if I should buy coffee<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="AZ" class="tabcontent">
+            <div class="row">
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/178.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#178<br>Amber *laveille* Leung</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Hotel Administration / 2023<br>
+                        <b><u>Ethnicity:</u></b> Taiwanese/Cantonese<br>
+                        <b><u>Hometown:</u></b> Montvale, NJ<br>
+                        <b><u>Big:</u></b> Jasmine *MIU* Ng<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> snacking, with an iced latte in my other hand<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/179.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#179<br>Grace *Bluet* Tran</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Art History &amp; English / 2023<br>
+                        <b><u>Ethnicity:</u></b> Vietnamese-Chinese<br>
+                        <b><u>Hometown:</u></b> Portland, OR<br>
+                        <b><u>Big:</u></b> Haena-Young *Mauresque* Lee<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> working at Goldies and looking at art at the HFJ
+                        Museum<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/180.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#180<br>Lina *Maélle* Cheung</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Human Development / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> NYC, NY<br>
+                        <b><u>Big:</u></b> Joyee *Millésime* Ng<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> at Starbucks getting my cold brew<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/181.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#181<br>Juliana *trevi* Kim</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> ILR / 2022<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Mount Olive, NY<br>
+                        <b><u>Big:</u></b> Aliison *kith* Kim<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> in confusion.<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/182.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#182<br>Allison *NAIAD* Eng</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> ILR / 2023<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Bayside, NY<br>
+                        <b><u>Big:</u></b> Sarah *NIAGARA* Rim<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> exploring Ithaca on a sunny day<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/183.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#183<br>Tiffany *claire voie* Chen</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Biology / 2023<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Brooklyn, NY<br>
+                        <b><u>Big:</u></b> Vivien *clytemnestra* Lee<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> in my room napping<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/184.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#184<br>Youna *Aqua Vitae* Choi</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Hotel Administration / 2023<br>
+                        <b><u>Ethnicity:</u></b> Korean<br>
+                        <b><u>Hometown:</u></b> Demarest, NJ<br>
+                        <b><u>Big:</u></b> Glora *Bella Vita* Ren<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> doing my homework in Statler Lounge<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/185.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#185<br>Jasmine *mirai* Yu</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Biological Sciences / 2023<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Portland, OR<br>
+                        <b><u>Big:</u></b> Annabel *Aqua regia* Lee<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> going back for my third plate of food<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/186.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#186<br>Zilin *VRIESEA* Guo</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Biology / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Brooklyn, NY<br>
+                        <b><u>Big:</u></b> Melody *VERVAIN* Na<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> watching Mukbangs or SNL on YouTube<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 col-12-medium">
+                <div class="container">
+                  <img class="image" src=images/activeroster/187.png alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <h5>#187<br>Ziqi *Imara* Guo</h5>
+                      <p class="sisterDesc">
+                        <b><u>Major:</u></b> Biological Sciences / 2022<br>
+                        <b><u>Ethnicity:</u></b> Chinese<br>
+                        <b><u>Hometown:</u></b> Brooklyn, NY<br>
+                        <b><u>Big:</u></b> Chloe *Antiope* Wang<br>
+                        <b><u>Little(s):</u></b> n/a<br><br>
+                        <b><u>You will usually find me:<br></u></b> at the Olin stacks<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <ul class="icons">
+            <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+          </ul>
+          <ul class="copyright">
+            <li>&copy; Untitled</li>
+          </ul>
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script>
+      function openPage(pageName, elmnt, color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+          tablinks[i].style.color = 'white';
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+        elmnt.style.color = '#420000';
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
