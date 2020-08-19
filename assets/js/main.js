@@ -332,4 +332,17 @@
 
 			});
 
+		const bgv = $('#fullscreen-bg__video');
+
+    if (bgv.is(':visible')) {
+      $('source', bgv).each(
+        function() {
+          const el = $(this);
+          el.attr('src', el.data('src'));
+        }
+      );
+
+      bgv[0].load();
+    }
+
 })(jQuery);
