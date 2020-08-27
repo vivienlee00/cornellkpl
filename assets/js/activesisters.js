@@ -631,7 +631,7 @@ function displayClass(clss) {
                           <img class="image" src=images/activeroster/${data[i].line_number}-min.jpg alt="" />
                           <div class="overlay">
                             <div class="text">
-                              <h5>#142<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
+                              <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
                               <p class="sisterDesc">
                                 <b><u>Major:</u></b> ${data[i].major} / ${data[i].year}<br>
                                 <b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>
@@ -660,7 +660,7 @@ function displayClass(clss) {
                           <img class="image" src=images/activeroster/${data[i].line_number}-min.jpg alt="" />
                           <div class="overlay">
                             <div class="text">
-                              <h5>#142<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
+                              <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
                               <p class="sisterDesc">
                                 <b><u>Major:</u></b> ${data[i].major} / ${data[i].year}<br>
                                 <b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>
@@ -689,7 +689,7 @@ function displayClass(clss) {
                           <img class="image" src=images/activeroster/${data[i].line_number}-min.jpg alt="" />
                           <div class="overlay">
                             <div class="text">
-                              <h5>#142<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
+                              <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
                               <p class="sisterDesc">
                                 <b><u>Major:</u></b> ${data[i].major} / ${data[i].year}<br>
                                 <b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>
@@ -718,7 +718,7 @@ function displayClass(clss) {
                           <img class="image" src=images/activeroster/${data[i].line_number}-min.jpg alt="" />
                           <div class="overlay">
                             <div class="text">
-                              <h5>#142<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
+                              <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
                               <p class="sisterDesc">
                                 <b><u>Major:</u></b> ${data[i].major} / ${data[i].year}<br>
                                 <b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>
@@ -747,7 +747,7 @@ function displayClass(clss) {
                           <img class="image" src=images/activeroster/${data[i].line_number}-min.jpg alt="" />
                           <div class="overlay">
                             <div class="text">
-                              <h5>#142<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
+                              <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
                               <p class="sisterDesc">
                                 <b><u>Major:</u></b> ${data[i].major} / ${data[i].year}<br>
                                 <b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>
