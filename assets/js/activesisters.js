@@ -508,7 +508,7 @@ data = [
     "description": "in confusion.",
     "ethnicity": "Korean",
     "first_name": "Juliana",
-    "hometown": "Mount Olive, NY",
+    "hometown": "Mount Olive, NJ",
     "last_name": "Kim",
     "line_number": 181,
     "little": "n/a",
