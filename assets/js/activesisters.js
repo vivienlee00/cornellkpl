@@ -115,7 +115,7 @@ data = [
     "big": "Min Young Erika *luciole* Kim",
     "description": "in the art studio or Johnson Museum",
     "ethnicity": "Korean",
-    "first_name": "So Yon Ariel",
+    "first_name": "Ariel Soyon",
     "hometown": "Seoul, Korea",
     "last_name": "Noh",
     "line_number": 153,
