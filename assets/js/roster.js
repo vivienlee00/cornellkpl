@@ -38,7 +38,7 @@ data = [{
 	"semester": "Spring 2000",
 	"year": 2003
 }, {
-	"big": "Debra*Rogue* Kim",
+	"big": "Debra *Rogue* Kim",
 	"description": "",
 	"ethnicity": "Korean",
 	"first_name": "Julia Heeju",
