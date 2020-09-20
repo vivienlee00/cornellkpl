@@ -2411,10 +2411,16 @@ data = [{
 function displayRoster() {
 
 	var sems = [];
+	var classes = ['Charter','Alpha','Beta','Gamma','Delta','Epsilon','Zeta','Eta','Theta','Iota','Lambda','Mu', 'Nu','Xi','Omicron','Pi','Rho','Sigma','Tau','Upsilon','Phi','Chi','Psi','Omega','Alpha Alpha','Alpha Beta','Alpha Gamma','Alpha Delta','Alpha Epsilon','Alpha Zeta'];
 
 	for (i = 0; i < data.length; i++) {
 		if (!(sems.includes(data[i].semester))) {
-			$("#" + 'infoo' + " .row").append('<div class="col-12 col-12-medium"><hr><h3>' + data[i].semester + '</h3></div>');
+			sems.push(data[i].semester);
+			if (data[i].semester == "Annex") {
+				$("#" + 'infoo' + " .row").append('<div class="col-12 col-12-medium"><hr><h3>' + data[i].semester + '</h3></div>');
+			} else {
+				$("#" + 'infoo' + " .row").append('<div class="col-12 col-12-medium"><hr><h3>iota ' + classes[sems.length - 1] + ', ' + data[i].semester + '</h3></div>');
+			}
 		}
 		var sister = `</br><div class="col-3 col-12-medium">
                         <div class="container">
@@ -2442,7 +2448,6 @@ function displayRoster() {
                         </div>
                       </div>`);
 		$("#" + 'infoo' + " .row").append(sister);
-		sems.push(data[i].semester);
 	}
 }
 
