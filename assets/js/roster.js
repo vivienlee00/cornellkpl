@@ -166,7 +166,7 @@ data = [{
 	"major": "Graphic Design - transferred to RISD",
 	"nickname": "Absinthe",
 	"semester": "Spring 2002",
-	"year": 0
+	"year": ''
 }, {
 	"big": "Christine *Niké* Tsai",
 	"description": "",
@@ -632,7 +632,7 @@ data = [{
 	"line_number": 50,
 	"little": "Sara *morelle* Kim, Kylie *kaleidoscope* Zhang",
 	"major": "Economics & Asian Studies, minor in International Relations",
-	"nickname": "fluer",
+	"nickname": "fleur",
 	"semester": "Spring 2009",
 	"year": 2012
 }, {
@@ -757,7 +757,7 @@ data = [{
 	"description": "",
 	"ethnicity": "Korean",
 	"first_name": "Selena Jinseon",
-	"hometown": "Picturesque",
+	"hometown": "",
 	"last_name": "Kim",
 	"line_number": 60,
 	"little": "Hannah *Periwinkle* Chung (γAA), Vivian *Almandine* On (UNR Charter), Agnes *Euthymia* Shin, Nuri *eevee* Kim",
@@ -907,7 +907,7 @@ data = [{
 	"major": " ",
 	"nickname": "idyllic",
 	"semester": "Fall 2012",
-	"year": 0
+	"year": ''
 }, {
 	"big": "Stephanie *chromatic* Wang",
 	"description": "",
@@ -2364,37 +2364,88 @@ data = [{
 	"nickname": "Imara",
 	"semester": "Spring 2020",
 	"year": 2022
+},
+{
+	"big": "Alyssa *Mace* Lee",
+	"description": "",
+	"ethnicity": "Taiwanese",
+	"first_name": "Annie",
+	"hometown": "",
+	"last_name": "Kuo",
+	"line_number": 'epsilon Gamma, Fall 1999',
+	"little": "Jody *Soleil* Sheu, Julie *Impulse* Kim, Rosa *Vertigo* Yun",
+	"major": "",
+	"nickname": "Ember",
+	"semester": "Annex",
+	"year": ''
+},
+{
+	"big": "Betty *Lilac* Chang",
+	"description": "",
+	"ethnicity": "Chinese",
+	"first_name": "Irene",
+	"hometown": "",
+	"last_name": "Tan",
+	"line_number": 'alpha Sigma, Fall 2003',
+	"little": "Caitlin *Adieu* Date",
+	"major": "Policy Analysis and Management",
+	"nickname": "Femme",
+	"semester": "Annex",
+	"year": ''
+},
+{
+	"big": "Jessica *Isidora* Chen",
+	"description": "",
+	"ethnicity": "Chinese",
+	"first_name": "Shu Min",
+	"hometown": "",
+	"last_name": "Liang",
+	"line_number": 'theta Phi, Fall 2009',
+	"little": "Emily *Faeri* Chiang",
+	"major": "Policy Analysis and Management",
+	"nickname": "Deva",
+	"semester": "Annex",
+	"year": 2012
 }];
 
 function displayRoster() {
 
-  var sems = [];
+	var sems = [];
 
-    for (i = 0; i < data.length; i++) {
-      if (!(sems.includes(data[i].semester))){
-        $("#" + 'infoo' + " .row").append('<div class="col-12 col-12-medium"><hr><h3>' + data[i].semester + '</h3></div>');
-      }
-      var sister = `</br><div class="col-3 col-12-medium">
+	for (i = 0; i < data.length; i++) {
+		if (!(sems.includes(data[i].semester))) {
+			$("#" + 'infoo' + " .row").append('<div class="col-12 col-12-medium"><hr><h3>' + data[i].semester + '</h3></div>');
+		}
+		var sister = `</br><div class="col-3 col-12-medium">
                         <div class="container">
-                          <div class="overlay">
-                            <div class="text">
-                              <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
+														<div class="text">`;
+														if (data[i].semester == "Annex") {
+															sister = sister.concat(`<h5>${data[i].line_number}`);
+														}
+														else{
+															sister = sister.concat(`<h5>#${data[i].line_number}`);
+														}
+		sister = sister.concat(`<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
                               <p class="sisterDesc">
                                 <b><u>Major:</u></b> ${data[i].major} / ${data[i].year}<br>
-                                <b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>
-                                <b><u>Hometown:</u></b> ${data[i].hometown}<br>
-                                <b><u>Big:</u></b> ${data[i].big}<br>
+																<b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>`);
+
+		if (data[i].hometown !== "") {
+			sister = sister.concat(`<b><u>Hometown:</u></b> ${data[i].hometown}<br>`);
+		}
+
+		sister = sister.concat(
+			`<b><u>Big:</u></b> ${data[i].big}<br>
                                 <b><u>Little(s):</u></b> ${data[i].little}<br><br>
                               </p>
-                            </div>
                           </div>
                         </div>
-                      </div>`;
-        $("#" + 'infoo' + " .row").append(sister);
-        sems.push(data[i].semester);
-      }
-  }
+                      </div>`);
+		$("#" + 'infoo' + " .row").append(sister);
+		sems.push(data[i].semester);
+	}
+}
 
-  $(document).ready(function () {
-    displayRoster();
-  });
+$(document).ready(function () {
+	displayRoster();
+});
