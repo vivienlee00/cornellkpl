@@ -2371,9 +2371,9 @@ function displayRoster() {
   var sems = [];
 
     for (i = 0; i < data.length; i++) {
-      /*if (!(sems.includes(data[i].semester))){
-        $("#" + 'infoo' + " .row").append(data[i].semester + '</br></br>');
-      }*/
+      if (!(sems.includes(data[i].semester))){
+        $("#" + 'infoo' + " .row").append('<div class="col-12 col-12-medium"><hr><h3>' + data[i].semester + '</h3></div>');
+      }
       var sister = `</br><div class="col-3 col-12-medium">
                         <div class="container">
                           <div class="overlay">
@@ -2391,7 +2391,7 @@ function displayRoster() {
                         </div>
                       </div>`;
         $("#" + 'infoo' + " .row").append(sister);
-        //sems.push(data[i].semester);
+        sems.push(data[i].semester);
       }
   }
 
