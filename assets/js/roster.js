@@ -2074,7 +2074,7 @@ data = [{
 	"last_name": "Kang",
 	"line_number": 165,
 	"little": "n/a",
-	"major": "ISST",
+	"major": "ORIE",
 	"nickname": "beatific",
 	"semester": "Spring 2019",
 	"year": 2022
