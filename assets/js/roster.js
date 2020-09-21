@@ -1631,7 +1631,7 @@ data = [{
 	"hometown": "Seoul, Korea",
 	"last_name": "Park",
 	"line_number": 128,
-	"little": "Michelle “Iolite* Li",
+	"little": "Michelle *Iolite* Li",
 	"major": "Design and Environmental Analysis",
 	"nickname": "Querencia",
 	"semester": "Fall 2017",
