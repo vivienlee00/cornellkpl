@@ -662,7 +662,7 @@ data = [{
 	"semester": "Fall 2009",
 	"year": 2012
 }, {
-	"big": "Chae *Huckleberry* Yoo",
+	"big": "Chae Yoo *Huckleberry* Park",
 	"description": "",
 	"ethnicity": "Korean",
 	"first_name": "Kristi",
