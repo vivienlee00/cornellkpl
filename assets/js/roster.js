@@ -1819,6 +1819,19 @@ data = [{
 	"semester": "Spring 2018",
 	"year": 2021
 }, {
+	"big": "Kathy *Contend* Wang",
+	"description": "",
+	"ethnicity": "Chinese",
+	"first_name": "Katie",
+	"hometown": "Marlboro, NJ",
+	"last_name": "Shum",
+	"line_number": 143,
+	"little": "Lauren *chaleur* Chun",
+	"major": "Applied Economics and Management",
+	"nickname": "Auxiliary",
+	"semester": "Spring 2018",
+	"year": 2020
+}, {
 	"big": "Liz *caritas* Hong",
 	"description": "chilling in Statler (#HoteliePride)",
 	"ethnicity": "Korean",
@@ -1858,6 +1871,19 @@ data = [{
 	"semester": "Spring 2018",
 	"year": 2021
 }, {
+	"big": "Liz *caritas* Hong",
+	"description": "",
+	"ethnicity": "Chinese",
+	"first_name": "Meng",
+	"hometown": "New York, NY",
+	"last_name": "Zhang",
+	"line_number": 147,
+	"little": "Stephanie *petrichor* Yang",
+	"major": "Industrial and Labor Relations",
+	"nickname": "yehua",
+	"semester": "Spring 2018",
+	"year": 2020
+}, {
 	"big": "Maria *Asti* Ding",
 	"description": "in my dorm 😉",
 	"ethnicity": "Korean",
@@ -1870,6 +1896,19 @@ data = [{
 	"nickname": "Nikka",
 	"semester": "Spring 2018",
 	"year": 2021
+}, {
+	"big": "Nina *Belle Äme* Lin",
+	"description": "",
+	"ethnicity": "Korean",
+	"first_name": "Leia",
+	"hometown": "Fort Lee, NJ",
+	"last_name": "Chung",
+	"line_number": 149,
+	"little": "Emilie *Arcturus* Guo",
+	"major": "Animal Science",
+	"nickname": "Lalique",
+	"semester": "Spring 2018",
+	"year": 2020
 }, {
 	"big": "Jinnie *oceanic* Kim",
 	"description": "watching Bob Ross",
