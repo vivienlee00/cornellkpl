@@ -2313,7 +2313,7 @@ data = [{
 	"semester": "Spring 2020",
 	"year": 2022
 }, {
-	"big": "Aliison *kith* Kim",
+	"big": "Allison *kith* Kim",
 	"description": "in confusion.",
 	"ethnicity": "Korean",
 	"first_name": "Juliana",
