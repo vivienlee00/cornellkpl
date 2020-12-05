@@ -2235,7 +2235,7 @@ data = [{
 	"semester": "Fall 2019",
 	"year": 2022
 }, {
-	"big": "Stephanie *petrichor* Yang",
+	"big": "Meng *yehua* Zhang",
 	"description": "in Olin basement or Kroch :)",
 	"ethnicity": "Chinese",
 	"first_name": "Stephanie",
