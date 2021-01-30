@@ -4079,6 +4079,14 @@ input, select, textarea {
 		margin-left: 6.3vw;
 	}
 
+	#mobile-about{
+		display: none;
+	}
+
+	#desktop-about{
+		display: block;
+	}
+
 	@media (max-width: 980px) {
 		.fullscreen-bg {
 				background: url('../../images/smokebg.png') center center / cover no-repeat;
@@ -4118,6 +4126,18 @@ input, select, textarea {
 
 		#infoo .row .col-3{
 			margin: 0 0 13em 0 !important;
+		}
+
+		#mobile-about{
+			display: block !important;
+		}
+
+		#mobile-about img{
+			max-width: 100%;
+		}
+
+		#desktop-about{
+			display: none;
 		}
 }
 
