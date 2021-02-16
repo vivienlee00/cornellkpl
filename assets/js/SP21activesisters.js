@@ -530,7 +530,7 @@ function displayClass(clss) {
       if (data[i].semester == sem) {
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
-                          <img class="image" src=images/activeroster/${data[i].line_number}-min.jpg alt="" />
+                          <img class="image" src=images/activeroster/SP21/${data[i].line_number}-min.jpg alt="" />
                           <div class="overlay">
                             <div class="text">
                               <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
@@ -559,8 +559,8 @@ function displayClass(clss) {
       if (data[i].semester == sem) {
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
-                          <img class="image" src=images/activeroster/${data[i].line_number}-min.jpg alt="" />
-                          <div class="overlay">
+                        <img class="image" src=images/activeroster/SP21/${data[i].line_number}-min.jpg alt="" />
+                        <div class="overlay">
                             <div class="text">
                               <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
                               <p class="sisterDesc">
@@ -588,8 +588,8 @@ function displayClass(clss) {
       if (data[i].semester == sem) {
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
-                          <img class="image" src=images/activeroster/${data[i].line_number}-min.jpg alt="" />
-                          <div class="overlay">
+                        <img class="image" src=images/activeroster/SP21/${data[i].line_number}-min.jpg alt="" />
+                        <div class="overlay">
                             <div class="text">
                               <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
                               <p class="sisterDesc">
@@ -617,8 +617,8 @@ function displayClass(clss) {
       if (data[i].semester == sem) {
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
-                          <img class="image" src=images/activeroster/${data[i].line_number}-min.jpg alt="" />
-                          <div class="overlay">
+                        <img class="image" src=images/activeroster/SP21/${data[i].line_number}-min.jpg alt="" />
+                        <div class="overlay">
                             <div class="text">
                               <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
                               <p class="sisterDesc">
@@ -646,8 +646,8 @@ function displayClass(clss) {
       if (data[i].semester == sem) {
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
-                          <img class="image" src=images/activeroster/${data[i].line_number}-min.jpg alt="" />
-                          <div class="overlay">
+                        <img class="image" src=images/activeroster/SP21/${data[i].line_number}-min.jpg alt="" />
+                        <div class="overlay">
                             <div class="text">
                               <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
                               <p class="sisterDesc">
