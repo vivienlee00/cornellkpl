@@ -1995,7 +1995,7 @@ data = [{
 	"hometown": "Brooklyn, NY",
 	"last_name": "Rim",
 	"line_number": 156,
-	"little": "Allison *NAIAD* Eng",
+	"little": "n/a",
 	"major": "ILR",
 	"nickname": "NIAGARA",
 	"semester": "Spring 2019",
@@ -2325,19 +2325,6 @@ data = [{
 	"nickname": "trevi",
 	"semester": "Spring 2020",
 	"year": 2022
-}, {
-	"big": "Sarah *NIAGARA* Rim",
-	"description": "exploring Ithaca on a sunny day",
-	"ethnicity": "Chinese",
-	"first_name": "Allison",
-	"hometown": "Bayside, NY",
-	"last_name": "Eng",
-	"line_number": 182,
-	"little": "n/a",
-	"major": "ILR",
-	"nickname": "NAIAD",
-	"semester": "Spring 2020",
-	"year": 2023
 }, {
 	"big": "Vivien *clytemnestra* Lee",
 	"description": "in my room napping",
