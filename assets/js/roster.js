@@ -1035,7 +1035,7 @@ data = [{
 	"line_number": 82,
 	"little": "Soon-Mi *thermic* Sugihara",
 	"major": "Information Science",
-	"nickname": "volvanic",
+	"nickname": "volcanic",
 	"semester": "Fall 2013",
 	"year": 2016
 }, {
