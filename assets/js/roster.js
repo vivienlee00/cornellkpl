@@ -2233,7 +2233,7 @@ data = [{
 	"major": "AEM",
 	"nickname": "blanc",
 	"semester": "Fall 2019",
-	"year": 2022
+	"year": 2021
 }, {
 	"big": "Meng *yehua* Zhang",
 	"description": "in Olin basement or Kroch :)",
