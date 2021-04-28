@@ -1956,7 +1956,7 @@ data = [{
 	"hometown": "Seoul, Korea",
 	"last_name": "Noh",
 	"line_number": 153,
-	"little": "n/a",
+	"little": "Arden *ad astra* Lee",
 	"major": "Fine Arts",
 	"nickname": "MIO",
 	"semester": "Spring 2018",
@@ -2034,7 +2034,7 @@ data = [{
 	"hometown": "Jericho, NY",
 	"last_name": "Guo",
 	"line_number": 159,
-	"little": "n/a",
+	"little": "Xue *kopari* Shao, Nicole *kyro* Huang",
 	"major": "Mechanical Engineering",
 	"nickname": "Arcturus",
 	"semester": "Spring 2019",
@@ -2073,7 +2073,7 @@ data = [{
 	"hometown": "Paramus, NJ",
 	"last_name": "Chun",
 	"line_number": 162,
-	"little": "n/a",
+	"little": "Ashley *ikai* Fan",
 	"major": "Hotel Administration",
 	"nickname": "chaleur",
 	"semester": "Spring 2019",
@@ -2086,7 +2086,7 @@ data = [{
 	"hometown": "Great Neck, NY",
 	"last_name": "Foo",
 	"line_number": 163,
-	"little": "n/a",
+	"little": "Grace *vendela* Fan",
 	"major": "Computer Science",
 	"nickname": "sappho",
 	"semester": "Spring 2019",
@@ -2099,7 +2099,7 @@ data = [{
 	"hometown": "Beijing, China",
 	"last_name": "Xu",
 	"line_number": 164,
-	"little": "n/a",
+	"little": "Lucy *Dalmore* Huang",
 	"major": "ILR",
 	"nickname": "Chasselas",
 	"semester": "Spring 2019",
@@ -2125,7 +2125,7 @@ data = [{
 	"hometown": "Bayside, NY",
 	"last_name": "Kim",
 	"line_number": 166,
-	"little": "n/a",
+	"little": "Jessica *aurélie* Ma",
 	"major": "Information Science",
 	"nickname": "MEI",
 	"semester": "Spring 2019",
@@ -2203,7 +2203,7 @@ data = [{
 	"hometown": "Seoul, Korea",
 	"last_name": "Lee",
 	"line_number": 172,
-	"little": "n/a",
+	"little": "Ryun *Asahi* Shim",
 	"major": "PAM",
 	"nickname": "Blue Moon",
 	"semester": "Fall 2019",
@@ -2216,7 +2216,7 @@ data = [{
 	"hometown": "Manhattan, NY",
 	"last_name": "Zhang",
 	"line_number": 173,
-	"little": "n/a",
+	"little": "Daphne *averic* Zhu",
 	"major": "ORIE",
 	"nickname": "novaturic",
 	"semester": "Fall 2019",
@@ -2242,7 +2242,7 @@ data = [{
 	"hometown": "Hong Kong",
 	"last_name": "Yang",
 	"line_number": 175,
-	"little": "n/a",
+	"little": "Yejune *aiteall* Park",
 	"major": "ILR",
 	"nickname": "petrichor",
 	"semester": "Fall 2019",
@@ -2392,6 +2392,146 @@ data = [{
 	"year": 2022
 },
 {
+  "big": "Emilie *Arcturus* Guo",
+  "description": "surrounded by engineers & doing tiktok/kpop dances",
+  "ethnicity": "Chinese",
+  "first_name": "Xue",
+  "hometown": "Reading, PA",
+  "last_name": "Shao",
+  "line_number": 188,
+  "little": "n/a",
+  "major": "Hotel Administration",
+  "nickname": "kopari",
+  "semester": "Spring 2021",
+  "year": 2023
+},
+{
+  "big": "Emilie *Arcturus* Guo",
+  "description": "listening to a 2000’s throwback playlist",
+  "ethnicity": "Chinese",
+  "first_name": "Nicole",
+  "hometown": "Jericho, NY",
+  "last_name": "Huang",
+  "line_number": 189,
+  "little": "n/a",
+  "major": "Human Development",
+  "nickname": "kyro",
+  "semester": "Spring 2021",
+  "year": 2023
+},
+{
+  "big": "Kelly *sappho* Foo",
+  "description": "spending $5 on kombucha at Nasties",
+  "ethnicity": "Chinese",
+  "first_name": "Grace",
+  "hometown": "Buffalo Grove, IL",
+  "last_name": "Fan",
+  "line_number": 190,
+  "little": "n/a",
+  "major": "Computer Science",
+  "nickname": "vendela",
+  "semester": "Spring 2021",
+  "year": 2024
+},
+{
+  "big": "Jing *novaturic* Zhang",
+  "description": "at Mango Mango or UTea",
+  "ethnicity": "Chinese",
+  "first_name": "Daphne",
+  "hometown": "Tenafly, NJ",
+  "last_name": "Zhu",
+  "line_number": 191,
+  "little": "n/a",
+  "major": "Human Biology, Health & Society",
+  "nickname": "averic",
+  "semester": "Spring 2021",
+  "year": 2023
+},
+{
+  "big": "Stephanie *petrichor* Yang",
+  "description": "sipping Venti Ice Green Tea Matcha",
+  "ethnicity": "Korean",
+  "first_name": "Yejune",
+  "hometown": "Seoul, Korea",
+  "last_name": "Park",
+  "line_number": 192,
+  "little": "n/a",
+  "major": "Industrial & Labor Relations",
+  "nickname": "aiteall",
+  "semester": "Spring 2021",
+  "year": 2023
+},
+{
+  "big": "Tracy *Chasselas* Xu",
+  "description": "procrastinating on my phone and on tik tok :D",
+  "ethnicity": "Chinese",
+  "first_name": "Lucy",
+  "hometown": "Roslyn Heights, NY",
+  "last_name": "Huang",
+  "line_number": 193,
+  "little": "n/a",
+  "major": "Human Development",
+  "nickname": "Dalmore",
+  "semester": "Spring 2021",
+  "year": 2023
+},
+{
+  "big": "Brittany *Blue Moon* Lee",
+  "description": "cozy in bed doing skincare",
+  "ethnicity": "Korean",
+  "first_name": "Ryun",
+  "hometown": "Long Island, NY",
+  "last_name": "Shim",
+  "line_number": 194,
+  "little": "n/a",
+  "major": "Information Science",
+  "nickname": "Asahi",
+  "semester": "Spring 2021",
+  "year": 2024
+},
+{
+  "big": "Ariel Soyon *MIO* Noh",
+  "description": "eating an egg and cheese",
+  "ethnicity": "Taiwanese/Italian/Irish",
+  "first_name": "Arden",
+  "hometown": "Wilton, CT",
+  "last_name": "Lee",
+  "line_number": 195,
+  "little": "n/a",
+  "major": "Plant Science",
+  "nickname": "ad astra",
+  "semester": "Spring 2021",
+  "year": 2023
+},
+{
+  "big": "Lauren *chaleur* Chun",
+  "description": "somewhere unexpected :0",
+  "ethnicity": "Chinese",
+  "first_name": "Ashley",
+  "hometown": "Hopewell Junction, NY",
+  "last_name": "Fan",
+  "line_number": 196,
+  "little": "n/a",
+  "major": "Chemistry and Philosophy",
+  "nickname": "ikai",
+  "semester": "Spring 2021",
+  "year": 2023
+},
+{
+  "big": "Celina *MEI* Kim",
+  "description": "playing with my cat and dog, drinking chai tea lattes, eating poke, sleeping",
+  "ethnicity": "Chinese",
+  "first_name": "Jessica",
+  "hometown": "Lexington, MA",
+  "last_name": "Ma",
+  "line_number": 197,
+  "little": "n/a",
+  "major": "Biological Science",
+  "nickname": "aurélie",
+  "semester": "Spring 2021",
+  "year": 2023
+},
+{
 	"big": "Alyssa *Mace* Lee",
 	"description": "",
 	"ethnicity": "Taiwanese",
@@ -2432,12 +2572,15 @@ data = [{
 	"nickname": "Deva",
 	"semester": "Annex",
 	"year": 2012
-}];
+}
+];
+//annex class needs to be at bottom of list
 
 function displayRoster() {
-
+	
 	var sems = [];
-	var classes = ['Charter','Alpha','Beta','Gamma','Delta','Epsilon','Zeta','Eta','Theta','Iota','Lambda','Mu', 'Nu','Xi','Omicron','Pi','Rho','Sigma','Tau','Upsilon','Phi','Chi','Psi','Omega','Alpha Alpha','Alpha Beta','Alpha Gamma','Alpha Delta','Alpha Epsilon','Alpha Zeta'];
+	var classes = ['Charter','Alpha','Beta','Gamma','Delta','Epsilon','Zeta','Eta','Theta','Iota','Lambda','Mu', 'Nu','Xi','Omicron','Pi','Rho','Sigma','Tau','Upsilon','Phi','Chi','Psi','Omega','Alpha Alpha','Alpha Beta','Alpha Gamma','Alpha Delta','Alpha Epsilon','Alpha Zeta','Alpha Eta'];
+	//add new classes to this list
 
 	for (i = 0; i < data.length; i++) {
 		if (!(sems.includes(data[i].semester))) {
