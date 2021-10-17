@@ -11,7 +11,7 @@ data = [
     "major": "AEM",
     "nickname": "Mallow",
     "semester": "Spring 2019",
-    "year": 2022
+    "year": 2021
   },
   {
     "big": "Morena *umami* Rong",
@@ -25,7 +25,7 @@ data = [
     "major": "Computer Science",
     "nickname": "unix",
     "semester": "Spring 2019",
-    "year": 2022
+    "year": 2021
   },
   {
     "big": "Leia *Lalique* Chung",
@@ -53,7 +53,7 @@ data = [
     "major": "AEM",
     "nickname": "kiba",
     "semester": "Spring 2019",
-    "year": 2022
+    "year": 2021
   },
   {
     "big": "Grace *Aesa* Han",
@@ -67,7 +67,7 @@ data = [
     "major": "Biomedical Engineering",
     "nickname": "Orabelle",
     "semester": "Spring 2019",
-    "year": 2022
+    "year": 2021
   },
   {
     "big": "Katie *Auxiliary* Shum",
@@ -81,7 +81,7 @@ data = [
     "major": "Hotel Administration",
     "nickname": "chaleur",
     "semester": "Spring 2019",
-    "year": 2022
+    "year": 2021
   },
   {
     "big": "Priscilla *Evangeline* Wong",
@@ -109,7 +109,7 @@ data = [
     "major": "ORIE",
     "nickname": "beatific",
     "semester": "Spring 2019",
-    "year": 2022
+    "year": 2021
   },
   {
     "big": "Min Young Erika *luciole* Kim",
@@ -206,7 +206,7 @@ data = [
     "major": "PAM",
     "nickname": "Blue Moon",
     "semester": "Fall 2019",
-    "year": 2022
+    "year": 2021
   },
   {
     "big": "Ever *oneiric* Chae",
@@ -248,7 +248,7 @@ data = [
     "major": "PAM",
     "nickname": "Iolite",
     "semester": "Fall 2019",
-    "year": 2022
+    "year": 2021
   },
   {
     "big": "Cara *Inoxia* Huang",
@@ -262,7 +262,7 @@ data = [
     "major": "Computer Science",
     "nickname": "Indica",
     "semester": "Fall 2019",
-    "year": 2022
+    "year": 2021
   },
   {
     "big": "Jasmine *MIU* Ng",
