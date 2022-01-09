@@ -223,7 +223,7 @@ data = [
     "year": 2023
   },
   {
-    "big": "Glora *Bella Vita* Ren",
+    "big": "Gloria *Bella Vita* Ren",
     "description": "doing my homework in Statler Lounge",
     "ethnicity": "Korean",
     "first_name": "Youna",
