@@ -2178,7 +2178,7 @@ data = [{
 	"last_name": "Hu",
 	"line_number": 170,
 	"little": "Christine *enoki* Cho",
-	"major": "Fashion Management",
+	"major": "Communications",
 	"nickname": "SYRE",
 	"semester": "Fall 2019",
 	"year": 2022
@@ -2339,7 +2339,7 @@ data = [{
 	"semester": "Spring 2020",
 	"year": 2023
 }, {
-	"big": "Glora *Bella Vita* Ren",
+	"big": "Gloria *Bella Vita* Ren",
 	"description": "doing my homework in Statler Lounge",
 	"ethnicity": "Korean",
 	"first_name": "Youna",

@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
-/* @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -210,7 +210,7 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 
 	h6 {
