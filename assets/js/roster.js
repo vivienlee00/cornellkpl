@@ -2021,7 +2021,7 @@ data = [{
 	"hometown": "Staten Island, NY",
 	"last_name": "Cao",
 	"line_number": 158,
-	"little": "n/a",
+	"little": "Ga Yoon *mertsanie* Choi",
 	"major": "Computer Science",
 	"nickname": "unix",
 	"semester": "Spring 2019",
