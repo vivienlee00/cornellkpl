@@ -105,7 +105,7 @@ data = [
     "last_name": "Hu",
     "line_number": 170,
     "little": "Christine *enoki* Cho",
-    "major": "Communications",
+    "major": "Communication",
     "nickname": "SYRE",
     "semester": "Fall 2019",
     "year": 2022
