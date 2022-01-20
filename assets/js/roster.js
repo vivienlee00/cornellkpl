@@ -2505,7 +2505,7 @@ data = [{
 },
 {
   "big": "Lauren *chaleur* Chun",
-  "description": "somewhere unexpected :0",
+  "description": "with my piggies n dennis :3",
   "ethnicity": "Chinese",
   "first_name": "Ashley",
   "hometown": "Hopewell Junction, NY",
