@@ -105,7 +105,7 @@ data = [
     "last_name": "Hu",
     "line_number": 170,
     "little": "Christine *enoki* Cho",
-    "major": "Communications",
+    "major": "Communication",
     "nickname": "SYRE",
     "semester": "Fall 2019",
     "year": 2022
@@ -392,7 +392,7 @@ data = [
   },
   {
     "big": "Lauren *chaleur* Chun",
-    "description": "somewhere unexpected :0",
+    "description": "with my piggies n dennis :3",
     "ethnicity": "Chinese",
     "first_name": "Ashley",
     "hometown": "Hopewell Junction, NY",
