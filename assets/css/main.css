@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -163,11 +164,11 @@ a {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #ffffff !important;
+	color: #ffffff;
 }
 
 a:active {
-	color: #ffffff !important;
+	color: #ffffff;
 }
 
 strong, b {
@@ -2212,6 +2213,7 @@ a.icon.alt:active:before {
 	width: 100%;
 }
 
+
 @media screen and (max-width: 736px) {
 
 	.image.main {
@@ -4087,6 +4089,12 @@ header.alt #pagecrest {
 	max-width: 70%;
 }
 
+.rushcards image{
+	display: block;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
 #rushcontent {
 	margin-top: 2%;
 }
@@ -4165,3 +4173,4 @@ header.alt #pagecrest {
 		display: none;
 	}
 }
+
