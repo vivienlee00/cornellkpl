@@ -4103,6 +4103,10 @@ header.alt #pagecrest {
 	margin: 0 0 .6em -1em !important;
 }
 
+#rushhover a:hover{
+	color: #d8c2aa;
+}
+
 #crest {
 	width: 12.5vw;
 	margin-top: 6.9vh;
