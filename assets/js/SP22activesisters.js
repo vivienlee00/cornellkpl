@@ -105,10 +105,10 @@ data = [
     "last_name": "Tran",
     "line_number": 179,
     "little": "n/a",
-    "major": "Art History & English",
+    "major": "Art History and College Scholar Program",
     "nickname": "Bluet",
     "semester": "Spring 2020",
-    "year": 2023
+    "year": 2022
   },
   {
     "big": "Joyee *Millésime* Ng",

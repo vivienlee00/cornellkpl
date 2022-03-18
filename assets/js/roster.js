@@ -2012,7 +2012,7 @@ data = [{
 	"major": "AEM",
 	"nickname": "Mallow",
 	"semester": "Spring 2019",
-	"year": 2022
+	"year": 2021
 }, {
 	"big": "Morena *umami* Rong",
 	"description": "watching Emilie watch Celina sleep at eHub",
@@ -2025,7 +2025,7 @@ data = [{
 	"major": "Computer Science",
 	"nickname": "unix",
 	"semester": "Spring 2019",
-	"year": 2022
+	"year": 2021
 }, {
 	"big": "Leia *Lalique* Chung",
 	"description": "watching Celina sleep at eHub",
@@ -2051,7 +2051,7 @@ data = [{
 	"major": "AEM",
 	"nickname": "kiba",
 	"semester": "Spring 2019",
-	"year": 2022
+	"year": 2021
 }, {
 	"big": "Grace *Aesa* Han",
 	"description": "being sick",
@@ -2064,7 +2064,7 @@ data = [{
 	"major": "Biomedical Engineering",
 	"nickname": "Orabelle",
 	"semester": "Spring 2019",
-	"year": 2022
+	"year": 2021
 }, {
 	"big": "Katie *Auxiliary* Shum",
 	"description": "sleeping at Statler with a smoothie",
@@ -2077,7 +2077,7 @@ data = [{
 	"major": "Hotel Administration",
 	"nickname": "chaleur",
 	"semester": "Spring 2019",
-	"year": 2022
+	"year": 2021
 }, {
 	"big": "Priscilla *Evangeline* Wong",
 	"description": "asking someone to elevate me at eHub",
@@ -2090,7 +2090,7 @@ data = [{
 	"major": "Computer Science",
 	"nickname": "sappho",
 	"semester": "Spring 2019",
-	"year": 2022
+	"year": 2021
 }, {
 	"big": "Grace *Symposium* Zhang",
 	"description": "counting down the days till the next break",
@@ -2116,7 +2116,7 @@ data = [{
 	"major": "ORIE",
 	"nickname": "beatific",
 	"semester": "Spring 2019",
-	"year": 2022
+	"year": 2021
 }, {
 	"big": "Min Young Erika *luciole* Kim",
 	"description": "sleeping at eHub",
@@ -2207,7 +2207,7 @@ data = [{
 	"major": "PAM",
 	"nickname": "Blue Moon",
 	"semester": "Fall 2019",
-	"year": 2022
+	"year": 2021
 }, {
 	"big": "Ever *oneiric* Chae",
 	"description": "wearing one airpod",
@@ -2220,7 +2220,7 @@ data = [{
 	"major": "ORIE",
 	"nickname": "novaturic",
 	"semester": "Fall 2019",
-	"year": 2022
+	"year": 2021
 }, {
 	"big": "Michelle *léda* Huang",
 	"description": "napping in one of the independent study rooms in Mann",
@@ -2259,7 +2259,7 @@ data = [{
 	"major": "PAM",
 	"nickname": "Iolite",
 	"semester": "Fall 2019",
-	"year": 2022
+	"year": 2021
 }, {
 	"big": "Cara *Inoxia* Huang",
 	"description": "deciding if I should buy coffee",
@@ -2272,7 +2272,7 @@ data = [{
 	"major": "Computer Science",
 	"nickname": "Indica",
 	"semester": "Fall 2019",
-	"year": 2022
+	"year": 2021
 }, {
 	"big": "Jasmine *MIU* Ng",
 	"description": "snacking, with an iced latte in my other hand",
@@ -2295,10 +2295,10 @@ data = [{
 	"last_name": "Tran",
 	"line_number": 179,
 	"little": "n/a",
-	"major": "Art History & English",
+	"major": "Art History and College Scholar Program",
 	"nickname": "Bluet",
 	"semester": "Spring 2020",
-	"year": 2023
+	"year": 2022
 }, {
 	"big": "Joyee *Millésime* Ng",
 	"description": "at Starbucks getting my cold brew",
