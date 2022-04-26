@@ -448,7 +448,7 @@ data = [
   },
   {
     "big": "Juliana *trevi* Kim",
-    "description": "on the fifth floor of the Johnson Museum",
+    "description": "with airpods in listening to music",
     "ethnicity": "Chinese",
     "first_name": "Chelsea",
     "hometown": "Seaford, NY",
