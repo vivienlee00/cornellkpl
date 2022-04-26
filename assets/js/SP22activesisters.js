@@ -428,6 +428,7 @@ data = [
     "line_number": 208,
     "little": "n/a",
     "major": "Chemical Engineering",
+    "nickname": "yokan",
     "semester": "Spring 2022",
     "year": 2025
   },
@@ -441,6 +442,7 @@ data = [
     "line_number": 209,
     "little": "n/a",
     "major": "Art History",
+    "nickname": "cloudbreak",
     "semester": "Spring 2022",
     "year": 2025
   },
@@ -454,6 +456,7 @@ data = [
     "line_number": 210,
     "little": "n/a",
     "major": "Applied Economics and Management",
+    "nickname": "kyem",
     "semester": "Spring 2022",
     "year": 2025
   },
