@@ -2761,7 +2761,7 @@ data = [{
 function displayRoster() {
 	
 	var sems = [];
-	var classes = ['Charter','Alpha','Beta','Gamma','Delta','Epsilon','Zeta','Eta','Theta','Iota','Lambda','Mu', 'Nu','Xi','Omicron','Pi','Rho','Sigma','Tau','Upsilon','Phi','Chi','Psi','Omega','Alpha Alpha','Alpha Beta','Alpha Gamma','Alpha Delta','Alpha Epsilon','Alpha Zeta','Alpha Eta', 'Alpha Theta'];
+	var classes = ['Charter','Alpha','Beta','Gamma','Delta','Epsilon','Zeta','Eta','Theta','Iota','Lambda','Mu', 'Nu','Xi','Omicron','Pi','Rho','Sigma','Tau','Upsilon','Phi','Chi','Psi','Omega','Alpha Alpha','Alpha Beta','Alpha Gamma','Alpha Delta','Alpha Epsilon','Alpha Zeta','Alpha Eta', 'Alpha Theta', 'Alpha Iota'];
 	//add new classes to this list
 
 	for (i = 0; i < data.length; i++) {
