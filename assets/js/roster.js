@@ -2652,7 +2652,7 @@ data = [{
     "last_name": "Nguyenduy",
     "line_number": 206,
     "little": "n/a",
-    "major": "Mechanical Engineering",
+    "major": "Computer Science",
     "nickname": "yūgen",
     "semester": "Spring 2022",
     "year": 2025
