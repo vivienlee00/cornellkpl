@@ -330,7 +330,7 @@ data = [
     "last_name": "An",
     "line_number": 208,
     "little": "n/a",
-    "major": "Chemical Engineering",
+    "major": "Materials Science and Engineering",
     "nickname": "yokan",
     "semester": "Spring 2022",
     "year": 2025
