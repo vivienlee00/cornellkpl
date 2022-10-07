@@ -157,7 +157,7 @@ data = [
     "big": "Lauren *chaleur* Chun",
     "description": "with my piggies n dennis :3",
     "ethnicity": "Chinese",
-    "first_name": "Ashley",
+    "first_name": "Ash",
     "hometown": "Hopewell Junction, NY",
     "last_name": "Fan",
     "line_number": 196,
