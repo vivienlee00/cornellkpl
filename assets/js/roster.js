@@ -2203,7 +2203,7 @@ data = [{
 	"hometown": "Seoul, Korea",
 	"last_name": "Lee",
 	"line_number": 172,
-	"little": "Ryun *Asahi* Shim",
+	"little": "n/a",
 	"major": "PAM",
 	"nickname": "Blue Moon",
 	"semester": "Fall 2019",
@@ -2307,7 +2307,7 @@ data = [{
 	"hometown": "NYC, NY",
 	"last_name": "Cheung",
 	"line_number": 180,
-	"little": "n/a",
+	"little": "Angie *Mitotique* Lee",
 	"major": "Human Development",
 	"nickname": "Maélle",
 	"semester": "Spring 2020",
@@ -2359,7 +2359,7 @@ data = [{
 	"hometown": "Portland, OR",
 	"last_name": "Yu",
 	"line_number": 185,
-	"little": "n/a",
+	"little": "Jackie *kahana* Wu",
 	"major": "Biological Sciences",
 	"nickname": "mirai",
 	"semester": "Spring 2020",
@@ -2469,25 +2469,11 @@ data = [{
   "hometown": "Roslyn Heights, NY",
   "last_name": "Huang",
   "line_number": 193,
-  "little": "n/a",
+  "little": "Jasmine *Clairette* Eng",
   "major": "Human Development",
   "nickname": "Dalmore",
   "semester": "Spring 2021",
   "year": 2023
-},
-{
-  "big": "Brittany *Blue Moon* Lee",
-  "description": "cozy in bed doing skincare",
-  "ethnicity": "Korean",
-  "first_name": "Ryun",
-  "hometown": "Long Island, NY",
-  "last_name": "Shim",
-  "line_number": 194,
-  "little": "n/a",
-  "major": "Information Science",
-  "nickname": "Asahi",
-  "semester": "Spring 2021",
-  "year": 2024
 },
 {
   "big": "Ariel Soyon *MIO* Noh",
@@ -2497,7 +2483,7 @@ data = [{
   "hometown": "Wilton, CT",
   "last_name": "Lee",
   "line_number": 195,
-  "little": "n/a",
+  "little": "Alyssa *HESPEROS* Paek",
   "major": "Plant Science",
   "nickname": "ad astra",
   "semester": "Spring 2021",
@@ -2553,7 +2539,7 @@ data = [{
 	"hometown": "Seoul, South Korea",
 	"last_name": "Choi",
 	"line_number": 199,
-	"little": "n/a",
+	"little": "Pin *novalunne* Assakul",
 	"major": "Digital Design",
 	"nickname": "mertsanie",
 	"semester": "Fall 2021",
@@ -2713,6 +2699,76 @@ data = [{
     "semester": "Spring 2022",
     "year": 2025
   },
+  {
+    "big": "Lina *Maélle* Cheung",
+    "description": "at bus stop bagels about to get my 5th latte of the week",
+    "ethnicity": "Chinese",
+    "first_name": "Angie",
+    "hometown": "Los Angeles, CA",
+    "last_name": "Lee",
+    "line_number": 211,
+    "little": "n/a",
+    "major": "Human Biology, Health and Society",
+    "nickname": "Mitotique",
+    "semester": "Fall 2022",
+    "year": 2025
+  },
+  {
+    "big": "Ga Yoon *mertsanie* Choi",
+    "description": "waiting in line at Bus Stop Bagels",
+    "ethnicity": "Thai",
+    "first_name": "Pin",
+    "hometown": "Bangkok, Thailand",
+    "last_name": "Assakul",
+    "line_number": 212,
+    "little": "n/a",
+    "major": "Human Development",
+    "nickname": "novalunne",
+    "semester": "Fall 2022",
+    "year": 2025
+  },
+  {
+    "big": "Lucy *Dalmore* Huang",
+    "description": "taking a nap in Rhodes",
+    "ethnicity": "Taiwanese/Hong Kongese",
+    "first_name": "Jasmine",
+    "hometown": "Pittsburgh, PA",
+    "last_name": "Eng",
+    "line_number": 213,
+    "little": "n/a",
+    "major": "Operations Research and Information Engineering",
+    "nickname": "Clairette",
+    "semester": "Fall 2022",
+    "year": 2024
+  },
+  {
+    "big": "Jasmine *mirai* Yu",
+    "description": "looking at your Spotify friend activity",
+    "ethnicity": "Taiwanese",
+    "first_name": "Jackie",
+    "hometown": "San Diego, CA",
+    "last_name": "Wu",
+    "line_number": 214,
+    "little": "n/a",
+    "major": "Economics, Law and Society",
+    "nickname": "kahana",
+    "semester": "Fall 2022",
+    "year": 2025
+  },
+  {
+    "big": "Arden *ad astra* Lee",
+    "description": "with my puppies",
+    "ethnicity": "Korean",
+    "first_name": "Alyssa",
+    "hometown": "Jericho, New York",
+    "last_name": "Paek",
+    "line_number": 215,
+    "little": "n/a",
+    "major": "Communication",
+    "nickname": "HESPEROS",
+    "semester": "Fall 2022",
+    "year": 2025
+  },
 {
 	"big": "Alyssa *Mace* Lee",
 	"description": "",
@@ -2761,7 +2817,7 @@ data = [{
 function displayRoster() {
 	
 	var sems = [];
-	var classes = ['Charter','Alpha','Beta','Gamma','Delta','Epsilon','Zeta','Eta','Theta','Iota','Lambda','Mu', 'Nu','Xi','Omicron','Pi','Rho','Sigma','Tau','Upsilon','Phi','Chi','Psi','Omega','Alpha Alpha','Alpha Beta','Alpha Gamma','Alpha Delta','Alpha Epsilon','Alpha Zeta','Alpha Eta', 'Alpha Theta', 'Alpha Iota'];
+	var classes = ['Charter','Alpha','Beta','Gamma','Delta','Epsilon','Zeta','Eta','Theta','Iota','Lambda','Mu', 'Nu','Xi','Omicron','Pi','Rho','Sigma','Tau','Upsilon','Phi','Chi','Psi','Omega','Alpha Alpha','Alpha Beta','Alpha Gamma','Alpha Delta','Alpha Epsilon','Alpha Zeta','Alpha Eta', 'Alpha Theta', 'Alpha Iota', 'Alpha Kappa'];
 	//add new classes to this list
 
 	for (i = 0; i < data.length; i++) {

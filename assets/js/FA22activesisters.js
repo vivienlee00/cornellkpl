@@ -126,20 +126,6 @@ data = [
     "year": 2023
   },
   {
-    "big": "Brittany *Blue Moon* Lee",
-    "description": "cozy in bed doing skincare",
-    "ethnicity": "Korean",
-    "first_name": "Ryun",
-    "hometown": "Long Island, NY",
-    "last_name": "Shim",
-    "line_number": 194,
-    "little": "n/a",
-    "major": "Information Science",
-    "nickname": "Asahi",
-    "semester": "Spring 2021",
-    "year": 2024
-  },
-  {
     "big": "Ariel Soyon *MIO* Noh",
     "description": "eating an egg and cheese",
     "ethnicity": "Taiwanese/Italian/Irish",
@@ -363,6 +349,76 @@ data = [
     "semester": "Spring 2022",
     "year": 2025
   },
+  {
+    "big": "Lina *Maélle* Cheung",
+    "description": "at bus stop bagels about to get my 5th latte of the week",
+    "ethnicity": "Chinese",
+    "first_name": "Angie",
+    "hometown": "Los Angeles, CA",
+    "last_name": "Lee",
+    "line_number": 211,
+    "little": "n/a",
+    "major": "Human Biology, Health and Society",
+    "nickname": "Mitotique",
+    "semester": "Fall 2022",
+    "year": 2025
+  },
+  {
+    "big": "Ga Yoon *mertsanie* Choi",
+    "description": "waiting in line at Bus Stop Bagels",
+    "ethnicity": "Thai",
+    "first_name": "Pin",
+    "hometown": "Bangkok, Thailand",
+    "last_name": "Assakul",
+    "line_number": 212,
+    "little": "n/a",
+    "major": "Human Development",
+    "nickname": "novalunne",
+    "semester": "Fall 2022",
+    "year": 2025
+  },
+  {
+    "big": "Lucy *Dalmore* Huang",
+    "description": "taking a nap in Rhodes",
+    "ethnicity": "Taiwanese/Hong Kongese",
+    "first_name": "Jasmine",
+    "hometown": "Pittsburgh, PA",
+    "last_name": "Eng",
+    "line_number": 213,
+    "little": "n/a",
+    "major": "Operations Research and Information Engineering",
+    "nickname": "Clairette",
+    "semester": "Fall 2022",
+    "year": 2024
+  },
+  {
+    "big": "Jasmine *mirai* Yu",
+    "description": "looking at your Spotify friend activity",
+    "ethnicity": "Taiwanese",
+    "first_name": "Jackie",
+    "hometown": "San Diego, CA",
+    "last_name": "Wu",
+    "line_number": 214,
+    "little": "n/a",
+    "major": "Economics, Law and Society",
+    "nickname": "kahana",
+    "semester": "Fall 2022",
+    "year": 2025
+  },
+  {
+    "big": "Arden *ad astra* Lee",
+    "description": "with my puppies",
+    "ethnicity": "Korean",
+    "first_name": "Alyssa",
+    "hometown": "Jericho, New York",
+    "last_name": "Paek",
+    "line_number": 215,
+    "little": "n/a",
+    "major": "Communication",
+    "nickname": "HESPEROS",
+    "semester": "Fall 2022",
+    "year": 2025
+  },
 ]
 
 function openPage(pageName, elmnt, color) {
@@ -493,17 +549,43 @@ function displayClass(clss) {
       }
     }
   }
+  if (clss == "AKappa") {
+    var sem = "Fall 2022";
+
+    for (i = 0; i < data.length; i++) {
+      if (data[i].semester == sem) {
+        var sister = `<div class="col-3 col-12-medium">
+                        <div class="container">
+                        <img class="image" src=images/activeroster/FA22/${data[i].line_number}.jpeg alt="" />
+                        <div class="overlay">
+                            <div class="text">
+                              <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
+                              <p class="sisterDesc">
+                                <b><u>Major:</u></b> ${data[i].major} / ${data[i].year}<br>
+                                <b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>
+                                <b><u>Hometown:</u></b> ${data[i].hometown}<br>
+                                <b><u>Big:</u></b> ${data[i].big}<br>
+                                <b><u>Little(s):</u></b> ${data[i].little}<br><br>
+                                <b><u>You will usually find me:<br></u></b> ${data[i].description}<br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>`;
+        $("#" + clss + " .row").append(sister);
+      }
+    }
+  }
 
 }
 
 $(document).ready(function () {
   document.getElementById("defaultOpen").click();
-  displayClass("AD");
-  displayClass("AE");
   displayClass("AZ");
   displayClass("AEta");
   displayClass("ATheta");
   displayClass("AIota")
+  displayClass("AKappa")
 });
 
 
