@@ -2680,7 +2680,7 @@ data = [{
     "last_name": "Han",
     "line_number": 209,
     "little": "n/a",
-    "major": "Art History",
+    "major": "Art History and College Scholar Program",
     "nickname": "cloudbreak",
     "semester": "Spring 2022",
     "year": 2025
