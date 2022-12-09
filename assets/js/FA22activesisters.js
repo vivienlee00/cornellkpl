@@ -380,7 +380,7 @@ data = [
   {
     "big": "Lucy *Dalmore* Huang",
     "description": "taking a nap in Rhodes",
-    "ethnicity": "Taiwanese/Hong Kongese",
+    "ethnicity": "Taiwanese/Cantonese",
     "first_name": "Jasmine",
     "hometown": "Pittsburgh, PA",
     "last_name": "Eng",
