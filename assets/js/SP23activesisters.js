@@ -83,20 +83,20 @@ data = [
     "semester": "Spring 2021",
     "year": 2023
   },
-  {
-    "big": "Lauren *chaleur* Chun",
-    "description": "with my piggies n dennis :3",
-    "ethnicity": "Chinese",
-    "first_name": "Ash",
-    "hometown": "Hopewell Junction, NY",
-    "last_name": "Fan",
-    "line_number": 196,
-    "little": "n/a",
-    "major": "Chemistry and Philosophy",
-    "nickname": "ikai",
-    "semester": "Spring 2021",
-    "year": 2023
-  },
+  // {
+  //   "big": "Lauren *chaleur* Chun",
+  //   "description": "with my piggies n dennis :3",
+  //   "ethnicity": "Chinese",
+  //   "first_name": "Ash",
+  //   "hometown": "Hopewell Junction, NY",
+  //   "last_name": "Fan",
+  //   "line_number": 196,
+  //   "little": "n/a",
+  //   "major": "Chemistry and Philosophy",
+  //   "nickname": "ikai",
+  //   "semester": "Spring 2021",
+  //   "year": 2023
+  // },
   {
     "big": "Celina *MEI* Kim",
     "description": "playing with my cat and dog, drinking chai tea lattes, eating poke, sleeping",
