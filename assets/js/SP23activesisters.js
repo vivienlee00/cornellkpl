@@ -63,7 +63,7 @@ data = [
     "hometown": "Roslyn Heights, NY",
     "last_name": "Huang",
     "line_number": 193,
-    "little": "n/a",
+    "little": "Jasmine *Clairette* Eng",
     "major": "Human Development",
     "nickname": "Dalmore",
     "semester": "Spring 2021",
