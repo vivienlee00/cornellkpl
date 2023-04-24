@@ -2770,32 +2770,32 @@ data = [{
 	"year": 2025
 },
 {
-	"big": "Tiffany *claire voie* Chen",
-	"description": "with ur mom🤭",
-	"ethnicity": "Chinese",
-	"first_name": "Emily",
-	"hometown": "Syosset, NY",
-	"last_name": "Chen",
-	"line_number": 216,
-	"little": "n/a",
-	"major": "Biological Engineering",
-	"nickname": "evanthia",
-	"semester": "Spring 2023",
-	"year": 2025
-},
-{
 	"big": "Xue *kopari* Shao",
 	"description": "cheffin it up in the kitchen",
 	"ethnicity": "Chinese",
 	"first_name": "Kelly",
 	"hometown": "Williston Park, NY",
 	"last_name": "Feng",
-	"line_number": 217,
+	"line_number": 216,
 	"little": "n/a",
 	"major": "Applied Economics and Management",
 	"nickname": "Sutera",
 	"semester": "Spring 2023",
 	"year": 2026
+},
+{
+	"big": "Tiffany *claire voie* Chen",
+	"description": "with ur mom🤭",
+	"ethnicity": "Chinese",
+	"first_name": "Emily",
+	"hometown": "Syosset, NY",
+	"last_name": "Chen",
+	"line_number": 217,
+	"little": "n/a",
+	"major": "Biological Engineering",
+	"nickname": "evanthia",
+	"semester": "Spring 2023",
+	"year": 2025
 },
 {
 	"big": "Grace *vendela* Fan",
