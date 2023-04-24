@@ -386,7 +386,7 @@ data = [
     "last_name": "Han",
     "line_number": 219,
     "little": "n/a",
-    "major": "Human Biology, Health and Society",
+    "major": "Human Biology, Health, and Society",
     "nickname": "rhôa",
     "semester": "Spring 2023",
     "year": 2026
