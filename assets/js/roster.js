@@ -2638,7 +2638,7 @@ data = [{
 	"last_name": "Nguyenduy",
 	"line_number": 206,
 	"little": "n/a",
-	"major": "Computer Science",
+	"major": "Information Science, Systems, and Technology",
 	"nickname": "yūgen",
 	"semester": "Spring 2022",
 	"year": 2025
