@@ -1329,7 +1329,7 @@ data = [{
 	"description": "",
 	"ethnicity": "Taiwanese",
 	"first_name": "Kristin",
-	"hometown": "Parsipanny, NJ",
+	"hometown": "Parsippany, NJ",
 	"last_name": "Chen",
 	"line_number": 105,
 	"little": "Michelle Woojoo *Q.E.D.* Kim, Tong *Factor!al* Li",
