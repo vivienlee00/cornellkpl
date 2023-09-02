@@ -169,7 +169,7 @@ data = [
   },
   {
     "big": "Juliana *trevi* Kim",
-    "description": "with airpods in listening to music",
+    "description": "with headphones on listening to music",
     "ethnicity": "Chinese",
     "first_name": "Chelsea",
     "hometown": "Seaford, NY",
