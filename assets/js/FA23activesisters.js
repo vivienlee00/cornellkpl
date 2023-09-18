@@ -478,8 +478,8 @@ function displayClass(clss) {
     }
   }
 
-  if (clss == "UAAlpha") {
-    var sem = "Fall 2023";
+  if (clss == "AAlpha") {
+    var sem = "Spring 2023";
 
     for (i = 0; i < data.length; i++) {
       if (data[i].semester == sem) {
@@ -514,7 +514,7 @@ $(document).ready(function () {
   displayClass("AIota")
   displayClass("AKappa")
   displayClass("ALambda")
-  displayClass("UAAlpha")
+  displayClass("AAlpha")
 });
 
 
