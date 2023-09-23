@@ -112,6 +112,20 @@ data = [
     "year": 2024
   },
   {
+    "big": "Zilin *VRIESEA* Guo",
+    "description": "buying snacks at 7/11",
+    "ethnicity": "Chinese/Mongolian",
+    "first_name": "Emily",
+    "hometown": "Lexington, MA",
+    "last_name": "Ma",
+    "line_number": 205,
+    "little": "n/a",
+    "major": "Hotel Administration",
+    "nickname": "VINCA",
+    "semester": "Fall 2021",
+    "year": 2024
+  },
+  {
     "big": "Grace *Bluet* Tran",
     "description": "taking a study break",
     "ethnicity": "Vietnamese",
@@ -307,20 +321,20 @@ data = [
     "semester": "Spring 2023",
     "year": 2026
   },
-  // {
-  //   "big": "Kaitlynn *SAMURAI* Chen",
-  //   "description": "at warren",
-  //   "ethnicity": "Korean",
-  //   "first_name": "Dylan",
-  //   "hometown": "Queens, NY",
-  //   "last_name": "Park",
-  //   "line_number": 99,
-  //   "little": "n/a",
-  //   "major": "Communication",
-  //   "nickname": "BLOODSTRIKE",
-  //   "semester": "Spring 2023",
-  //   "year": 2026
-  // }
+  {
+    "big": "Kaitlynn *SAMURAI* Chen",
+    "description": "at warren",
+    "ethnicity": "Korean",
+    "first_name": "Dylan",
+    "hometown": "Queens, NY",
+    "last_name": "Park",
+    "line_number": 99,
+    "little": "n/a",
+    "major": "Communication",
+    "nickname": "BLOODSTRIKE",
+    "semester": "Spring 2023",
+    "year": 2026
+  }
 
 ]
 
@@ -479,10 +493,10 @@ function displayClass(clss) {
   }
 
   if (clss == "AAlpha") {
-    var sem = "Spring 2023";
+    var sem = "ASpring 2023";
 
     for (i = 0; i < data.length; i++) {
-      if (data[i].semester == sem) {
+      if (data[i].name == first_name) {
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
                         <img class="image" src=images/activeroster/FA23/${data[i].line_number}.jpeg alt="" />
