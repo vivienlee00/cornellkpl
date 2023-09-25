@@ -469,6 +469,7 @@ function displayClass(clss) {
 
     for (i = 0; i < data.length; i++) {
       if (data[i].semester == sem) {
+      
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
                         <img class="image" src=images/activeroster/FA23/${data[i].line_number}.jpeg alt="" />
@@ -493,10 +494,10 @@ function displayClass(clss) {
   }
 
   if (clss == "AAlpha") {
-    var sem = "ASpring 2023";
+    var name = "Dylan";
 
     for (i = 0; i < data.length; i++) {
-      if (data[i].name == first_name) {
+      if (data[i].first_name == name) {
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
                         <img class="image" src=images/activeroster/FA23/${data[i].line_number}.jpeg alt="" />
