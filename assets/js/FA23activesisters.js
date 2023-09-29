@@ -466,9 +466,10 @@ function displayClass(clss) {
   }
   if (clss == "ALambda") {
     var sem = "Spring 2023";
+    var name = "Dylan";
 
     for (i = 0; i < data.length; i++) {
-      if (data[i].semester == sem) {
+      if (data[i].semester == sem  && data[i].first_name !== name){
       
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
