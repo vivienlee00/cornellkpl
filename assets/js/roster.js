@@ -2880,6 +2880,19 @@ data = [{
 	"nickname": "Deva",
 	"semester": "Annex",
 	"year": 2012
+},
+{
+	"big": "Kaitlynn *SAMURAI* Chen",
+	"description": "",
+	"ethnicity": "Korean",
+	"first_name": "Dylan",
+	"hometown": "Queens, NY",
+	"last_name": "Park",
+	"line_number": 'Upsilon Alpha Alpha, Spring 2023',
+	"major": "Communication",
+	"nickname": "BLOODSTRIKE",
+	"semester": "Annex",
+	"year": 2026
 }
 ];
 //annex class needs to be at bottom of list
