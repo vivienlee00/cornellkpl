@@ -77,7 +77,7 @@ data = [
     "hometown": "Santa Clara, CA",
     "last_name": "Kuang",
     "line_number": 202,
-    "little": "Joyce *ilianthos* Chen",
+    "little": "Joyce *Ilianthos* Chen",
     "major": "Information Science",
     "nickname": "Iberis",
     "semester": "Fall 2021",
