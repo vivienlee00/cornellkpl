@@ -49,7 +49,7 @@ data = [
     "hometown": "Princeton, NJ",
     "last_name": "Teng",
     "line_number": 200,
-    "little": "Dathy *Orphéon* Pham,Olivia *Oyédo* Wong",
+    "little": "Dathy *Orphéon* Pham, Olivia *Oyédo* Wong",
     "major": "Mechanical Engineering",
     "nickname": "Kumo",
     "semester": "Fall 2021",
