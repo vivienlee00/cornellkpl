@@ -582,6 +582,7 @@ function displayClass(clss) {
 
 $(document).ready(function () {
   document.getElementById("defaultOpen").click();
+  displayClass("AEta");
   displayClass("ATheta");
   displayClass("AIota")
   displayClass("AKappa")
