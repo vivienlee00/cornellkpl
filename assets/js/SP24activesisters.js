@@ -98,6 +98,20 @@ data = [
     "year": 2025
   },
   {
+    "big": "Grace *Bluet* Tran",
+    "description": "on the fifth floor of the Johnson Museum",
+    "ethnicity": "Korean",
+    "first_name": "Leah",
+    "hometown": "Norwood, NJ",
+    "last_name": "Han",
+    "line_number": 209,
+    "little": "n/a",
+    "major": "Art History and College Scholar Program",
+    "nickname": "cloudbreak",
+    "semester": "Spring 2022",
+    "year": 2025
+  },
+  {
     "big": "Juliana *trevi* Kim",
     "description": "with headphones on listening to music",
     "ethnicity": "Chinese",
@@ -398,33 +412,6 @@ function openPage(pageName, elmnt, color) {
 
 function displayClass(clss) {
 
-  if (clss == "AEta") {
-    var sem = "Spring 2021";
-
-    for (i = 0; i < data.length; i++) {
-      if (data[i].semester == sem) {
-        var sister = `<div class="col-3 col-12-medium">
-                        <div class="container">
-                        <img class="image" src=images/activeroster/FA23/${data[i].line_number}.jpeg alt="" />
-                        <div class="overlay">
-                            <div class="text">
-                              <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
-                              <p class="sisterDesc">
-                                <b><u>Major:</u></b> ${data[i].major} / ${data[i].year}<br>
-                                <b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>
-                                <b><u>Hometown:</u></b> ${data[i].hometown}<br>
-                                <b><u>Big:</u></b> ${data[i].big}<br>
-                                <b><u>Little(s):</u></b> ${data[i].little}<br><br>
-                                <b><u>You will usually find me:<br></u></b> ${data[i].description}<br>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>`;
-        $("#" + clss + " .row").append(sister);
-      }
-    }
-  }
   if (clss == "ATheta") {
     var sem = "Fall 2021";
 
@@ -432,7 +419,7 @@ function displayClass(clss) {
       if (data[i].semester == sem) {
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
-                        <img class="image" src=images/activeroster/FA23/${data[i].line_number}.jpeg alt="" />
+                        <img class="image" src=images/activeroster/SP24/${data[i].line_number}.jpeg alt="" />
                         <div class="overlay">
                             <div class="text">
                               <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
@@ -459,7 +446,7 @@ function displayClass(clss) {
       if (data[i].semester == sem) {
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
-                        <img class="image" src=images/activeroster/FA23/${data[i].line_number}.jpeg alt="" />
+                        <img class="image" src=images/activeroster/SP24/${data[i].line_number}.jpeg alt="" />
                         <div class="overlay">
                             <div class="text">
                               <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
@@ -486,7 +473,7 @@ function displayClass(clss) {
       if (data[i].semester == sem) {
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
-                        <img class="image" src=images/activeroster/FA23/${data[i].line_number}.jpeg alt="" />
+                        <img class="image" src=images/activeroster/SP24/${data[i].line_number}.jpeg alt="" />
                         <div class="overlay">
                             <div class="text">
                               <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
@@ -515,7 +502,7 @@ function displayClass(clss) {
       
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
-                        <img class="image" src=images/activeroster/FA23/${data[i].line_number}.jpeg alt="" />
+                        <img class="image" src=images/activeroster/SP24/${data[i].line_number}.jpeg alt="" />
                         <div class="overlay">
                             <div class="text">
                               <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
@@ -543,7 +530,7 @@ function displayClass(clss) {
       if (data[i].first_name == name) {
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
-                        <img class="image" src=images/activeroster/FA23/${data[i].line_number}.jpeg alt="" />
+                        <img class="image" src=images/activeroster/SP24/${data[i].line_number}.jpeg alt="" />
                         <div class="overlay">
                             <div class="text">
                               <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
@@ -571,7 +558,7 @@ function displayClass(clss) {
       
         var sister = `<div class="col-3 col-12-medium">
                         <div class="container">
-                        <img class="image" src=images/activeroster/FA23/${data[i].line_number}.jpeg alt="" />
+                        <img class="image" src=images/activeroster/SP24/${data[i].line_number}.jpeg alt="" />
                         <div class="overlay">
                             <div class="text">
                               <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
