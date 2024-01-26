@@ -2567,7 +2567,7 @@ data = [{
 	"hometown": "Seoul, South Korea",
 	"last_name": "Jung",
 	"line_number": 201,
-	"little": "Jessica *rhôa* Han, Joan *caudalic* Bao",
+	"little": "Jessica *rhôa* Han, Joan *Caudalic* Bao",
 	"major": "Hotel Administration",
 	"nickname": "VARA",
 	"semester": "Fall 2021",
@@ -2961,7 +2961,7 @@ data = [{
 	"line_number": 229,
 	"little": "n/a",
 	"major": "Nutritional Sciences",
-	"nickname": "caudalic",
+	"nickname": "Caudalic",
 	"semester": "Fall 2023",
 	"year": 2026
 },

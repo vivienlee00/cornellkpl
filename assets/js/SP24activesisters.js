@@ -1,19 +1,5 @@
 data = [
   {
-    "big": "Kelly *sappho* Foo",
-    "description": "spending $5 on kombucha at Nasties",
-    "ethnicity": "Chinese",
-    "first_name": "Grace",
-    "hometown": "Buffalo Grove, IL",
-    "last_name": "Fan",
-    "line_number": 190,
-    "little": "Vanessa *sylvié* Tam",
-    "major": "Computer Science",
-    "nickname": "vendela",
-    "semester": "Spring 2021",
-    "year": 2024
-  },
-  {
     "big": "Nicole *SYRE* Hu",
     "description": "falling asleep in the cocktail lounge",
     "ethnicity": "Korean",
@@ -28,34 +14,6 @@ data = [
     "year": 2024
   },
   {
-    "big": "Ling *unix* Cao",
-    "description": "buying/eating ice cream or froyo 🥰",
-    "ethnicity": "Korean",
-    "first_name": "Ga Yoon",
-    "hometown": "Seoul, South Korea",
-    "last_name": "Choi",
-    "line_number": 199,
-    "little": "Pin *novalunne* Assakul",
-    "major": "Digital Design",
-    "nickname": "mertsanie",
-    "semester": "Fall 2021",
-    "year": 2023
-  },
-  {
-    "big": "Michelle *Iolite* Li",
-    "description": "in distress",
-    "ethnicity": "Chinese",
-    "first_name": "Sophia",
-    "hometown": "Princeton, NJ",
-    "last_name": "Teng",
-    "line_number": 200,
-    "little": "Dathy *Orphéon* Pham, Olivia *Oyédo* Wong",
-    "major": "Mechanical Engineering",
-    "nickname": "Kumo",
-    "semester": "Fall 2021",
-    "year": 2024
-  },
-  {
     "big": "Youna *Aqua Vitae* Choi",
     "description": "stalking you on Find My",
     "ethnicity": "Korean",
@@ -66,20 +24,6 @@ data = [
     "little": "Jessica *rhôa* Han, Joan *Caudalic* Bao",
     "major": "Hotel Administration",
     "nickname": "VARA",
-    "semester": "Fall 2021",
-    "year": 2024
-  },
-  {
-    "big": "Amanda *Indica* Wang",
-    "description": "napping in duffield",
-    "ethnicity": "Chinese",
-    "first_name": "Jessica",
-    "hometown": "Santa Clara, CA",
-    "last_name": "Kuang",
-    "line_number": 202,
-    "little": "Joyce *Ilianthos* Chen",
-    "major": "Information Science",
-    "nickname": "Iberis",
     "semester": "Fall 2021",
     "year": 2024
   },
@@ -108,20 +52,6 @@ data = [
     "little": "Amber *roborare* Prasad, Neen Yada *resalire* Tangcharoenmonkong",
     "major": "Animal Science",
     "nickname": "audax",
-    "semester": "Fall 2021",
-    "year": 2024
-  },
-  {
-    "big": "Zilin *VRIESEA* Guo",
-    "description": "buying snacks at 7/11",
-    "ethnicity": "Chinese/Mongolian",
-    "first_name": "Emily",
-    "hometown": "Lexington, MA",
-    "last_name": "Ma",
-    "line_number": 205,
-    "little": "n/a",
-    "major": "Hotel Administration",
-    "nickname": "VINCA",
     "semester": "Fall 2021",
     "year": 2024
   },
@@ -208,20 +138,6 @@ data = [
     "nickname": "novalunne",
     "semester": "Fall 2022",
     "year": 2025
-  },
-  {
-    "big": "Lucy *Dalmore* Huang",
-    "description": "taking a nap in Rhodes",
-    "ethnicity": "Taiwanese/Cantonese",
-    "first_name": "Jasmine",
-    "hometown": "Pittsburgh, PA",
-    "last_name": "Eng",
-    "line_number": 213,
-    "little": "Jennifer *Amarone* Zhu, Rose *eloise* Liu",
-    "major": "Operations Research and Information Engineering",
-    "nickname": "Clairette",
-    "semester": "Fall 2022",
-    "year": 2024
   },
   {
     "big": "Jasmine *mirai* Yu",
