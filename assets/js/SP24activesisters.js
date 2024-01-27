@@ -218,7 +218,7 @@ data = [
     "last_name": "Tam",
     "line_number": 218,
     "little": "n/a",
-    "major": "Operations Research & Information Engineering",
+    "major": "Information Science",
     "nickname": "sylvié",
     "semester": "Spring 2023",
     "year": 2026
@@ -260,7 +260,7 @@ data = [
     "last_name": "Park",
     "line_number": 99,
     "little": "n/a",
-    "major": "Communication",
+    "major": "Information Science",
     "nickname": "BLOODSTRIKE",
     "semester": "Spring 2023",
     "year": 2026
@@ -296,7 +296,7 @@ data = [
   {
     "big": "Sophia *Kumo* Teng",
     "description": "In CTB buying myself a hot chai latte and an onion bagel with nova cream cheese",
-    "ethnicity": "Cantonese",
+    "ethnicity": "Chinese",
     "first_name": "Olivia",
     "hometown": "Newton, Massachusetts",
     "last_name": "Wong",
