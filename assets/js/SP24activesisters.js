@@ -28,6 +28,20 @@ data = [
     "year": 2024
   },
   {
+    "big": "Amanda *Indica* Wang",
+    "description": "napping in duffield",
+    "ethnicity": "Chinese",
+    "first_name": "Jessica",
+    "hometown": "Santa Clara, CA",
+    "last_name": "Kuang",
+    "line_number": 202,
+    "little": "Joyce *Ilianthos* Chen",
+    "major": "Information Science",
+    "nickname": "Iberis",
+    "semester": "Fall 2021",
+    "year": 2024
+  },
+  {
     "big": "Ziqi *Imara* Guo",
     "description": "in my room taking a nap",
     "ethnicity": "Korean",
@@ -41,6 +55,7 @@ data = [
     "semester": "Fall 2021",
     "year": 2024
   },
+  
   {
     "big": "Tong *Factor!al* Li",
     "description": "chilling in my room watching YouTube",
