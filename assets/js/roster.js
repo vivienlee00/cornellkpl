@@ -3015,7 +3015,7 @@ data = [{
 	"first_name": "Dylan",
 	"hometown": "Queens, NY",
 	"last_name": "Park",
-	"line_number": 'Upsilon Alpha Alpha, Spring 2023',
+	"line_number": 'upsilon Alpha Alpha, Spring 2023',
 	"little": "n/a",
 	"major": "Communication",
 	"nickname": "BLOODSTRIKE",
