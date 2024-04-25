@@ -406,7 +406,104 @@ data = [
     "semester": "Fall 2023",
     "year": 2026
   },
-
+  {
+    "big": "Sara *Kodak* Lok",
+    "description": "grinding at Duff",
+    "ethnicity": "Korean",
+    "first_name": "Joy",
+    "hometown": "Williston Park, NY",
+    "last_name": "Om",
+    "line_number": 230,
+    "little": "n/a",
+    "major": "Information Science",
+    "nickname": "kintarō",
+    "semester": "Spring 2024",
+    "year": 2026
+  },
+  {
+    "big": "Christine *enoki* Cho",
+    "description": "missing the bus",
+    "ethnicity": "Korean",
+    "first_name": "Abigail",
+    "hometown": "Los Angeles, CA",
+    "last_name": "Park",
+    "line_number": 231,
+    "little": "n/a",
+    "major": "Information Science",
+    "nickname": "makōra",
+    "semester": "Spring 2024",
+    "year": 2027
+  },
+  {
+    "big": "Ashley *yokan* An",
+    "description": "taking a nap",
+    "ethnicity": "Malaysian",
+    "first_name": "Hallie",
+    "hometown": "Queens, NY",
+    "last_name": "Lai",
+    "line_number": 232,
+    "little": "n/a",
+    "major": "Human Biology Health & Society",
+    "nickname": "tequi",
+    "semester": "Spring 2024",
+    "year": 2026
+  },
+  {
+    "big": "Chelsea *kyem* Lin",
+    "description": "procrastinating in my room 🤨",
+    "ethnicity": "Chinese",
+    "first_name": "Jolin",
+    "hometown": "Effingham, IL",
+    "last_name": "Jiang",
+    "line_number": 233,
+    "little": "n/a",
+    "major": "Hotel Administration",
+    "nickname": "ambrette",
+    "semester": "Spring 2024",
+    "year": 2027
+  },
+  {
+    "big": "Elisa *audax* Kim",
+    "description": "napping on a table in Olin",
+    "ethnicity": "Chinese",
+    "first_name": "Kat",
+    "hometown": "Fort Collins, CO",
+    "last_name": "Wei",
+    "line_number": 234,
+    "little": "n/a",
+    "major": "Computer Science",
+    "nickname": "ciételle",
+    "semester": "Spring 2024",
+    "year": 2026
+  },
+  {
+    "big": "Christine *enoki* Cho",
+    "description": "Grinding at Cocktail Lounge",
+    "ethnicity": "Korean",
+    "first_name": "Esther",
+    "hometown": "Seattle, WA",
+    "last_name": "Yoon",
+    "line_number": 235,
+    "little": "n/a",
+    "major": "Psychology",
+    "nickname": "sémielle",
+    "semester": "Spring 2024",
+    "year": 2027
+  },
+  {
+    "big": "Lyss *HESPEROS* Paek",
+    "description": "in my dorm",
+    "ethnicity": "Korean",
+    "first_name": "Jiyin",
+    "hometown": "Johns Creek, GA",
+    "last_name": "You",
+    "line_number": 236,
+    "little": "n/a",
+    "major": "Human Biology, Health, and Society",
+    "nickname": "aythya",
+    "semester": "Spring 2024",
+    "year": 2027
+  },
 ]
 
 function openPage(pageName, elmnt, color) {
@@ -593,6 +690,34 @@ function displayClass(clss) {
       }
     }
   }
+  if (clss == "ANu") {
+    var sem = "Spring 2024";
+
+    for (i = 0; i < data.length; i++) {
+      if (data[i].semester == sem  && data[i].first_name !== name){
+      
+        var sister = `<div class="col-3 col-12-medium">
+                        <div class="container">
+                        <img class="image" src=images/activeroster/SP24/${data[i].line_number}.jpeg alt="" />
+                        <div class="overlay">
+                            <div class="text">
+                              <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
+                              <p class="sisterDesc">
+                                <b><u>Major:</u></b> ${data[i].major} / ${data[i].year}<br>
+                                <b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>
+                                <b><u>Hometown:</u></b> ${data[i].hometown}<br>
+                                <b><u>Big:</u></b> ${data[i].big}<br>
+                                <b><u>Little(s):</u></b> ${data[i].little}<br><br>
+                                <b><u>You will usually find me:<br></u></b> ${data[i].description}<br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>`;
+        $("#" + clss + " .row").append(sister);
+      }
+    }
+  }
 }
 
 $(document).ready(function () {
@@ -604,6 +729,7 @@ $(document).ready(function () {
   displayClass("ALambda")
   displayClass("AAlpha")
   displayClass("AMu")
+  displayClass("ANu")
 });
 
 
