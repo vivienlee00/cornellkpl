@@ -2763,7 +2763,7 @@ data = [{
 	"hometown": "Jericho, NY",
 	"last_name": "Paek",
 	"line_number": 215,
-	"little": "n/a",
+	"little": "Jiyin *aythya* You",
 	"major": "Communication",
 	"nickname": "HESPEROS",
 	"semester": "Fall 2022",
