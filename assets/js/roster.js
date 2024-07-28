@@ -474,7 +474,7 @@ data = [{
 	"hometown": "",
 	"last_name": "Chu",
 	"line_number": 38,
-	"little": "Iris *Adorne* Mai",
+	"little": "n/a",
 	"major": "Biological Sciences",
 	"nickname": "Millenium",
 	"semester": "Spring 2007",
@@ -531,19 +531,6 @@ data = [{
 	"nickname": "Avant",
 	"semester": "Spring 2008",
 	"year": 2011
-}, {
-	"big": "Amanda *Millennium* Chu",
-	"description": "",
-	"ethnicity": "Taiwanese",
-	"first_name": "Iris",
-	"hometown": "",
-	"last_name": "Mai",
-	"line_number": 43,
-	"little": "Jessica *Hermès* Gu",
-	"major": "Fiber Science and Apparel Design Management",
-	"nickname": "Adorne",
-	"semester": "Spring 2009",
-	"year": 2012
 }, {
 	"big": "Karen *xelle* Lin",
 	"description": "",
@@ -831,7 +818,7 @@ data = [{
 	"semester": "Spring 2012",
 	"year": 2016
 }, {
-	"big": "Iris *Adorne* Mai",
+	"big": "n/a",
 	"description": "",
 	"ethnicity": "Chinese",
 	"first_name": "Jessica Youjia",
