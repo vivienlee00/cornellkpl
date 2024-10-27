@@ -2320,7 +2320,7 @@ data = [{
 	"hometown": "Brooklyn, NY",
 	"last_name": "Chen",
 	"line_number": 183,
-	"little": "Emily * evanthia* Chen",
+	"little": "Emily *evanthia* Chen",
 	"major": "Biology",
 	"nickname": "claire voie",
 	"semester": "Spring 2020",
