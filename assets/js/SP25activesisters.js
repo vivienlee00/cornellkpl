@@ -69,20 +69,20 @@ data = [
         "semester": "Spring 2023",
         "year": 2026
       },
-      {
-        "big": "Kaitlynn *SAMURAI* Chen",
-        "description": "at warren",
-        "ethnicity": "Korean",
-        "first_name": "Dylan",
-        "hometown": "Queens, NY",
-        "last_name": "Park",
-        "line_number": 99,
-        "little": "n/a",
-        "major": "Information Science",
-        "nickname": "BLOODSTRIKE",
-        "semester": "Spring 2023",
-        "year": 2026
-      },
+      // {
+      //   "big": "Kaitlynn *SAMURAI* Chen",
+      //   "description": "at warren",
+      //   "ethnicity": "Korean",
+      //   "first_name": "Dylan",
+      //   "hometown": "Queens, NY",
+      //   "last_name": "Park",
+      //   "line_number": 99,
+      //   "little": "n/a",
+      //   "major": "Information Science",
+      //   "nickname": "BLOODSTRIKE",
+      //   "semester": "Spring 2023",
+      //   "year": 2026
+      // },
       {
         "big": "Sophia *Kumo* Teng",
         "description": "sleeping on the PSB couches",
