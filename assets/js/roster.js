@@ -3027,7 +3027,7 @@ data = [{
     "description": "Grinding at Cocktail Lounge",
     "ethnicity": "Korean",
     "first_name": "Esther",
-    "hometown": "Seattle, WA",
+    "hometown": "Bellevue, WA",
     "last_name": "Yoon",
     "line_number": 235,
     "little": "n/a",
@@ -3049,6 +3049,47 @@ data = [{
     "nickname": "aythya",
     "semester": "Spring 2024",
     "year": 2027
+  },{
+	"big": "Emily *evanthia* Chen",
+	"description": "grabbing coffee at cafe jennie",
+	"ethnicity": "Korean",
+	"first_name": "Norah",
+	"hometown": "San Diego, CA",
+	"last_name": "Park",
+	"line_number": 237,
+	"little": "n/a",
+	"major": "Industrial and Labor Relations",
+	"nickname": "tarū",
+	"semester": "Fall 2024",
+	"year": 2027
+  },
+  {
+	"big": "Angie *Mitotique* Lee",
+	"description": "taking a nap or in Zeus Cafe with zoup!",
+	"ethnicity": "Chinese",
+	"first_name": "Maiya",
+	"hometown": "Billings, MT",
+	"last_name": "Easton",
+	"line_number": 238,
+	"little": "n/a",
+	"major": "History and Government",
+	"nickname": "clarion",
+	"semester": "Fall 2024",
+	"year": 2027
+  },
+  {
+	"big": "Monica *yūgen* Nguyenduy",
+	"description": "eating instant ramen in my dorm",
+	"ethnicity": "Korean",
+	"first_name": "Jaein",
+	"hometown": "Queens, NY",
+	"last_name": "Ku",
+	"line_number": 239,
+	"little": "n/a",
+	"major": "Industrial and Labor Relations",
+	"nickname": "kūrashi",
+	"semester": "Fall 2024",
+	"year": 2027
   },
 
 {
@@ -3107,13 +3148,14 @@ data = [{
 	"semester": "Annex",
 	"year": 2026
 }
+
 ];
 //annex class needs to be at bottom of list
 
 function displayRoster() {
 
 	var sems = [];
-	var classes = ['Charter', 'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho', 'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega', 'Alpha Alpha', 'Alpha Beta', 'Alpha Gamma', 'Alpha Delta', 'Alpha Epsilon', 'Alpha Zeta', 'Alpha Eta', 'Alpha Theta', 'Alpha Iota', 'Alpha Kappa', 'Alpha Lambda', 'Alpha Mu', 'Alpha Nu'];
+	var classes = ['Charter', 'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho', 'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega', 'Alpha Alpha', 'Alpha Beta', 'Alpha Gamma', 'Alpha Delta', 'Alpha Epsilon', 'Alpha Zeta', 'Alpha Eta', 'Alpha Theta', 'Alpha Iota', 'Alpha Kappa', 'Alpha Lambda', 'Alpha Mu', 'Alpha Nu', 'Alpha Xi'];
 	//add new classes to this list
 
 	for (i = 0; i < data.length; i++) {

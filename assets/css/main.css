@@ -4103,17 +4103,17 @@ header.alt #pagecrest {
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 2%;
-    max-width: 70%;
+    max-width: 100%;
 }
 
 #rushcards img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 600px; /* Fixed width */
-    max-width: 600px;
-    min-width: 600px;
-    height: 400px; /* Fixed height */
+    width: 1080; /* Fixed width */
+    max-width: 1080px;
+    min-width: 1080px;
+    height: 566px; /* Fixed height */
 }
 
 
