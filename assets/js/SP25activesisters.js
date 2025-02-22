@@ -153,20 +153,20 @@ data = [
         "semester": "Fall 2023",
         "year": 2026
       },
-      {
-        "big": "Jasmine *Clairette* Eng",
-        "description": "spending BRBs",
-        "ethnicity": "Chinese",
-        "first_name": "Rose",
-        "hometown": "Shanghai, China",
-        "last_name": "Liu",
-        "line_number": 228,
-        "little": "n/a",
-        "major": "Design & Environmental Analysis",
-        "nickname": "eloise",
-        "semester": "Fall 2023",
-        "year": 2026
-      },
+      // {
+      //   "big": "Jasmine *Clairette* Eng",
+      //   "description": "spending BRBs",
+      //   "ethnicity": "Chinese",
+      //   "first_name": "Rose",
+      //   "hometown": "Shanghai, China",
+      //   "last_name": "Liu",
+      //   "line_number": 228,
+      //   "little": "n/a",
+      //   "major": "Design & Environmental Analysis",
+      //   "nickname": "eloise",
+      //   "semester": "Fall 2023",
+      //   "year": 2026
+      // },
       {
         "big": "Stephanie *VARA* Jung",
         "description": "In the trenches",
