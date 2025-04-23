@@ -7,7 +7,7 @@ data = [
         "hometown": "Norwood, NJ",
         "last_name": "Han",
         "line_number": 209,
-        "little": "n/a",
+        "little": "Sandra *santero* Tang, Milly *iriséa* Miao",
         "major": "Art History and College Scholar Program",
         "nickname": "cloudbreak",
         "semester": "Spring 2022",
@@ -21,7 +21,7 @@ data = [
         "hometown": "Williston Park, NY",
         "last_name": "Feng",
         "line_number": 216,
-        "little": "n/a",
+        "little": "Gwendolyn *Asami* Sze, Emily *Kenkō* Bu",
         "major": "Applied Economics and Management",
         "nickname": "Sutera",
         "semester": "Spring 2023",
@@ -49,7 +49,7 @@ data = [
         "hometown": "Englewood Cliffs, NJ",
         "last_name": "Han",
         "line_number": 219,
-        "little": "n/a",
+        "little": "Gia *kesna* Kim",
         "major": "Human Biology, Health, and Society",
         "nickname": "rhôa",
         "semester": "Spring 2023",
@@ -63,7 +63,7 @@ data = [
         "hometown": "Minneapolis, MN",
         "last_name": "Zheng",
         "line_number": 220,
-        "little": "n/a",
+        "little": "Jessica *fléurelic* Wang",
         "major": "Hotel Administration",
         "nickname": "remaic",
         "semester": "Spring 2023",
@@ -105,7 +105,7 @@ data = [
         "hometown": "Los Angeles, California",
         "last_name": "Masuda",
         "line_number": 222,
-        "little": "n/a",
+        "little": "Kyra *selphira* Lung",
         "major": "Chemistry",
         "nickname": "star sapphire",
         "semester": "Fall 2023",
@@ -133,7 +133,7 @@ data = [
         "hometown": "Portland, Oregon",
         "last_name": "Prasad",
         "line_number": 225,
-        "little": "n/a",
+        "little": "Selina *verusare* Xu, Natalie *vitare* Guo",
         "major": "Animal Science",
         "nickname": "roborare",
         "semester": "Fall 2023",
@@ -322,6 +322,124 @@ data = [
       "semester": "Fall 2024",
       "year": 2027
     },
+    {
+      "big": "Jessica *rhôa* Han",
+      "description": "dying on the second floor of Mann Lib",
+      "ethnicity": "Korean",
+      "first_name": "Gia",
+      "hometown": "Cresskill, NJ",
+      "last_name": "Kim",
+      "line_number": 240,
+      "little": "n/a",
+      "major": "Chemistry",
+      "nickname": "kesna",
+      "semester": "Spring 2025",
+      "year": 2028
+    }, {
+      "big": "Kelly *Sutera* Feng",
+      "description": "in a thrift store or takin a nap 💤 ",
+      "ethnicity": "Chinese",
+      "first_name": "Gwendolyn",
+      "hometown": "Brooklyn, NY",
+      "last_name": "Sze",
+      "line_number": 241,
+      "little": "n/a",
+      "major": "Applied Economics & Management",
+      "nickname": "Asami",
+      "semester": "Spring 2025",
+      "year": 2028
+    }, {
+      "big": "Leah *cloudbreak* Han",
+      "description": "At Duff or Cocktail",
+      "ethnicity": "Chinese",
+      "first_name": "Sandra",
+      "hometown": "Winchester, MA",
+      "last_name": "Tang",
+      "line_number": 242,
+      "little": "n/a",
+      "major": "Computer Science",
+      "nickname": "santero",
+      "semester": "Spring 2025",
+      "year": 2028
+    }, {
+      "big": "Julia *star sapphire* Masuda",
+      "description": "napping in mann",
+      "ethnicity": "Korean",
+      "first_name": "Kyra",
+      "hometown": "Honolulu, HI",
+      "last_name": "Lung",
+      "line_number": 243,
+      "little": "n/a",
+      "major": "Applied Economics and Management",
+      "nickname": "selphira",
+      "semester": "Spring 2025",
+      "year": 2027
+    }, {
+      "big": "Kelly *Sutera* Feng",
+      "description": "back of cocktail",
+      "ethnicity": "Chinese",
+      "first_name": "Emily",
+      "hometown": "NYC, NY",
+      "last_name": "Bu",
+      "line_number": 244,
+      "little": "n/a",
+      "major": "Nutritional Sciences",
+      "nickname": "Kenkō",
+      "semester": "Spring 2025",
+      "year": 2027
+    }, {
+      "big": "Amber *roborare* Prasad",
+      "description": "getting celsius",
+      "ethnicity": "Chinese",
+      "first_name": "Selina",
+      "hometown": "Johns Creek, GA",
+      "last_name": "Xu",
+      "line_number": 245,
+      "little": "n/a",
+      "major": "Psychology",
+      "nickname": "verusare",
+      "semester": "Spring 2025",
+      "year": 2027
+    }, {
+      "big": "Amber *roborare* Prasad",
+      "description": "fighting for my life @ the gym",
+      "ethnicity": "Chinese",
+      "first_name": "Natalie",
+      "hometown": "Manhattan, NY",
+      "last_name": "Guo",
+      "line_number": 246,
+      "little": "n/a",
+      "major": "Government & History ",
+      "nickname": "vitare",
+      "semester": "Spring 2025",
+      "year": 2028
+    }, {
+      "big": "Leah *cloudbreak* Han",
+      "description": "In cocktail",
+      "ethnicity": "Chinese",
+      "first_name": "Milly",
+      "hometown": "Johns Creek, GA",
+      "last_name": "Miao",
+      "line_number": 247,
+      "little": "n/a",
+      "major": "Mechanical Engineering",
+      "nickname": "iriséa",
+      "semester": "Spring 2025",
+      "year": 2028
+    }, {
+      "big": "Venus *remaic* Zheng",
+      "description": "Napping wherever possible",
+      "ethnicity": "Chinese",
+      "first_name": "Jessica",
+      "hometown": "Queens, NY",
+      "last_name": "Wang",
+      "line_number": 248,
+      "little": "n/a",
+      "major": "Economics and Information Science",
+      "nickname": "fléurelic",
+      "semester": "Spring 2025",
+      "year": 2028
+    }
   ]
   
   function openPage(pageName, elmnt, color) {
@@ -537,6 +655,34 @@ data = [
         }
       }
     }
+    if (clss == "AOmicron") {
+      var sem = "Spring 2025";
+  
+      for (i = 0; i < data.length; i++) {
+        if (data[i].semester == sem  && data[i].first_name !== name){
+        
+          var sister = `<div class="col-3 col-12-medium">
+                          <div class="container">
+                          <img class="image" src=images/activeroster/FA24/${data[i].line_number}.jpeg alt="" />
+                          <div class="overlay">
+                              <div class="text">
+                                <h5>#${data[i].line_number}<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
+                                <p class="sisterDesc">
+                                  <b><u>Major:</u></b> ${data[i].major} / ${data[i].year}<br>
+                                  <b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>
+                                  <b><u>Hometown:</u></b> ${data[i].hometown}<br>
+                                  <b><u>Big:</u></b> ${data[i].big}<br>
+                                  <b><u>Little(s):</u></b> ${data[i].little}<br><br>
+                                  <b><u>You will usually find me:<br></u></b> ${data[i].description}<br>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>`;
+          $("#" + clss + " .row").append(sister);
+        }
+      }
+    }
   }
   
   $(document).ready(function () {
@@ -550,6 +696,7 @@ data = [
     displayClass("AMu")
     displayClass("ANu")
     displayClass("AXi")
+    displayClass("AOmicron")
   });
   
   
