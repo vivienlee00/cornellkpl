@@ -364,7 +364,7 @@ data = [
     }, {
       "big": "Julia *star sapphire* Masuda",
       "description": "napping in mann",
-      "ethnicity": "Korean",
+      "ethnicity": "Chinese",
       "first_name": "Kyra",
       "hometown": "Honolulu, HI",
       "last_name": "Lung",
