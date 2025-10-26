@@ -3471,53 +3471,6 @@ data = [
 //annex class needs to be at bottom of list
 
 function displayRoster() {
-  const seenSemesters = new Set(); // replaces sems
-  let classIdx = 0; // index into classes (non-Annex only)
-
-  for (let i = 0; i < data.length; i++) {
-    const sem = data[i].semester;
-
-    if (!seenSemesters.has(sem)) {
-      seenSemesters.add(sem);
-
-      if (sem === "Annex") {
-        $("#infoo .row").append(
-          '<div class="col-12 col-12-medium"><hr><h3>Annex</h3></div>'
-        );
-      } else {
-        const label = classes[classIdx] ?? "(Add more class names)";
-        $("#infoo .row").append(
-          `<div class="col-12 col-12-medium"><hr><h3>${label}, ${sem}</h3></div>`
-        );
-        classIdx++;
-      }
-    }
-
-    let sister = `</br><div class="col-3 col-12-medium">
-                    <div class="container">
-                      <div class="text">`;
-
-    if (sem === "Annex") sister += `<h5>${data[i].line_number}`;
-    else sister += `<h5>#${data[i].line_number}`;
-
-    sister += `<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
-               <p class="sisterDesc">
-                 <b><u>Major:</u></b> ${data[i].major} / ${data[i].year}<br>
-                 <b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>`;
-
-    if (data[i].hometown !== "")
-      sister += `<b><u>Hometown:</u></b> ${data[i].hometown}<br>`;
-
-    sister += `<b><u>Big:</u></b> ${data[i].big}<br>
-               <b><u>Little(s):</u></b> ${data[i].little}<br><br>
-               </p></div></div></div>`;
-
-    $("#infoo .row").append(sister);
-  }
-}
-
-/*
-function displayRoster() {
   var sems = [];
   var classes = [
     "Charter",
@@ -3610,7 +3563,6 @@ function displayRoster() {
     $("#" + "infoo" + " .row").append(sister);
   }
 }
-*/
 
 $(document).ready(function () {
   displayRoster();
