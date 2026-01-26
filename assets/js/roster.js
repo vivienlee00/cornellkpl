@@ -3411,6 +3411,8 @@ data = [
     year: 2028,
   },
 
+  // add the new people copy and paste from main when theres information given
+
   {
     big: "Alyssa *Mace* Lee",
     description: "",
@@ -3512,6 +3514,7 @@ function displayRoster() {
     "Alpha Nu",
     "Alpha Xi",
     "Alpha Omicron",
+    "Alpha Pi"
   ];
   //add new classes to this list
 
