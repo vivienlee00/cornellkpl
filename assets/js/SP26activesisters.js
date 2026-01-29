@@ -331,7 +331,7 @@ data = [
     line_number: 253,
     little: "n/a",
     major: "Biological Sciences",
-    nickname: "fléurelic",
+    nickname: "Eladaria",
     semester: "Spring 2025",
     year: 2028,
   },
