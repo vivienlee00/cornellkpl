@@ -352,7 +352,7 @@ data = [
 ];
 
 // --- small safe fix so `name` checks don't throw ReferenceError in some blocks ---
-var name = "SP25";
+var name = "";
 
 // --- image extension fallback helper ---
 const IMG_EXTS = ["jpeg", "jpg", "JPG", "png", "webp", "PNG"];
@@ -385,8 +385,8 @@ function openPage(pageName, elmnt, color) {
 }
 
 function displayClass(clss) {
-  // Use your new SP26 folder for all currently displayed photos
-  var folder = "SP26";
+  // Use your new folder for all currently displayed photos
+  var folder = "SP25";
 
   if (clss == "ALambda") {
     var sem = "Spring 2023";
