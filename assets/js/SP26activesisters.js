@@ -281,7 +281,7 @@ data = [
   },
   {
     big: "Joyce *Ilianthos* Chen",
-    description: "being late",
+    description: "duff at night",
     ethnicity: "Chinese",
     first_name: "Angelina",
     hometown: "Long Island, NY",
@@ -295,8 +295,8 @@ data = [
   },
   {
     big: "Neen *resalire* Tangcharoenmonkong ",
-    description: "making matcha at libe cafe",
-    ethnicity: "Chinese",
+    description: "stargazing on da slope",
+    ethnicity: "Taiwanese / Chinese ",
     first_name: "Melody",
     hometown: "Andover, Massachusetts",
     last_name: "Tang",
@@ -338,7 +338,7 @@ data = [
   {
     big: "Rose *eloise* Liu",
     description: "at my dorm",
-    ethnicity: "Taiwanese & Chinese",
+    ethnicity: "Taiwanese / Chinese",
     first_name: "Colleen",
     hometown: "Bay Area, CA",
     last_name: "Yu",
