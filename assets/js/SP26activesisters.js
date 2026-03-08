@@ -280,7 +280,7 @@ data = [
     year: 2028,
   },
   {
-    big: "Joyce *Iliantos* Chen",
+    big: "Joyce *Ilianthos* Chen",
     description: "being late",
     ethnicity: "Chinese",
     first_name: "Angelina",
@@ -298,7 +298,7 @@ data = [
     description: "making matcha at libe cafe",
     ethnicity: "Chinese",
     first_name: "Melody",
-    hometown: "Andover, Massachusettes",
+    hometown: "Andover, Massachusetts",
     last_name: "Tang",
     line_number: 251,
     little: "n/a",
