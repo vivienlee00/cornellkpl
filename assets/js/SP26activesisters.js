@@ -352,7 +352,7 @@ data = [
 ];
 
 // --- small safe fix so `name` checks don't throw ReferenceError in some blocks ---
-var name = "";
+var name = "SP25";
 
 // --- image extension fallback helper ---
 const IMG_EXTS = ["jpeg", "jpg", "JPG", "png", "webp", "PNG"];
