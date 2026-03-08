@@ -276,11 +276,11 @@ data = [
     little: "n/a",
     major: "Animal Science",
     nickname: "kaze",
-    semester: "Spring 2025",
+    semester: "Fall 2025",
     year: 2028,
   },
   {
-    big: "Joyce *Illiantos* Chen",
+    big: "Joyce *Iliantos* Chen",
     description: "being late",
     ethnicity: "Chinese",
     first_name: "Angelina",
@@ -289,8 +289,8 @@ data = [
     line_number: 250,
     little: "n/a",
     major: "Hotel Administration",
-    nickname: "iresine",
-    semester: "Spring 2025",
+    nickname: "Iresine",
+    semester: "Fall 2025",
     year: 2028,
   },
   {
@@ -304,7 +304,7 @@ data = [
     little: "n/a",
     major: "Physics",
     nickname: "reka",
-    semester: "Spring 2025",
+    semester: "Fall 2025",
     year: 2028,
   },
   {
@@ -317,8 +317,8 @@ data = [
     line_number: 252,
     little: "n/a",
     major: "Electrical and Computer Engineering",
-    nickname: "kaijin",
-    semester: "Spring 2025",
+    nickname: "Kaijin",
+    semester: "Fall 2025",
     year: 2028,
   },
   {
@@ -332,7 +332,7 @@ data = [
     little: "n/a",
     major: "Biological Sciences",
     nickname: "Eladaria",
-    semester: "Spring 2025",
+    semester: "Fall 2025",
     year: 2028,
   },
   {
@@ -346,7 +346,7 @@ data = [
     little: "n/a",
     major: "ILR",
     nickname: "Lilisé",
-    semester: "Spring 2025",
+    semester: "Fall 2025",
     year: 2028,
   }
 ];
