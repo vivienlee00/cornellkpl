@@ -355,7 +355,7 @@ data = [
 var name = "";
 
 // --- image extension fallback helper ---
-const IMG_EXTS = ["jpeg", "jpg", "JPG", "png", "webp", "PNG"];
+const IMG_EXTS = ["jpeg", "JPEG", "jpg", "JPG", "png", "webp", "PNG"];
 function imgFallback(el, line, folder) {
   const i = parseInt(el.dataset.nextExtIndex || "0", 10);
   const next = i + 1;
