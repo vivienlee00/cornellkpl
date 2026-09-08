@@ -4,8 +4,13 @@
 <head>
   <title>Active Sisters 💎 Cornell ΚΦΛ</title>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, user-scalable=no"
+  />
+
   <link rel="stylesheet" href="assets/css/main.css" />
+
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" />
   </noscript>
@@ -14,7 +19,9 @@
     .container {
       position: relative;
       max-height: 450px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
       border-radius: 7px;
     }
 
@@ -39,7 +46,7 @@
       height: 100%;
       width: 100%;
       opacity: 0;
-      transition: .3s ease;
+      transition: 0.3s ease;
       background-color: rgba(0, 0, 0, 0.85);
       border-radius: 7px;
     }
@@ -67,7 +74,7 @@
     .tablink {
       height: auto;
       line-height: 1.3em;
-      padding: .8em 2em;
+      padding: 0.8em 2em;
     }
 
     .tabcontent {
@@ -85,17 +92,10 @@
   <!-- Wrapper -->
   <div id="wrapper">
 
-    <!-- Header 
-    <header id="header" class="reveal">
-			<a href="index" class="logo"><img src="images/crestfull.png" id="crest"></a>
-			<nav>
-				<a href="#menu">Menu</a>
-			</nav>
-    </header>
-  -->
-
+    <!-- Header -->
     <header id="header">
       <a href="/" class="logo"></a>
+
       <nav>
         <a href="#menu">Menu</a>
       </nav>
@@ -104,155 +104,181 @@
     <!-- Menu -->
     <nav id="menu">
       <ul class="links">
-        <li><a href="/">Home</a></li>
-        <!-- <li><a href="rush.html">Rush</a></li>
-				<li><a href="elements.html">Elements</a></li> -->
-        <li><a href="rush">Rush</a></li>
-        <li><a href="actives">Active Sisters</a></li>
-        <li><a href="roster">Full Roster</a></li>
-        <li><a href="about">About Kappas</a></li>
+        <li>
+          <a href="/">Home</a>
+        </li>
+
+        <li>
+          <a href="rush">Rush</a>
+        </li>
+
+        <li>
+          <a href="actives">Active Sisters</a>
+        </li>
+
+        <li>
+          <a href="roster">Full Roster</a>
+        </li>
+
+        <li>
+          <a href="about">About Kappas</a>
+        </li>
       </ul>
+
       <ul class="actions stacked">
-        <li><a href="contact" class="button primary fit">Contact Us</a></li>
-        <!-- <li><a href="#" class="button fit small disabled">Internals Login</a></li> -->
+        <li>
+          <a href="contact" class="button primary fit">
+            Contact Us
+          </a>
+        </li>
       </ul>
     </nav>
 
     <!-- Main -->
     <div id="main" class="alt">
 
-      <!-- One -->
+      <!-- Active Sisters -->
       <section id="one">
         <div class="inner" style="max-width: 70em;">
-          <!--
-          <header class="major">
-            <h1>Elements</h1>
-          </header>
 
-          <h2 id="content">Sample Content</h2>
-          <div class="row">
-            <div class="col-4 col-12-medium">
-              <h3>Interdum sapien gravida</h3>
-              <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non
-                faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
-                varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-            </div>
-            <div class="col-4 col-12-medium">
-              <h3>Faucibus consequat lorem</h3>
-              <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non
-                faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
-                varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-            </div>
-            <div class="col-4 col-12-medium">
-              <h3>Accumsan montes viverra</h3>
-              <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non
-                faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
-                varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-            </div>
-          </div>
-          <hr class="major" />-->
+          <h1 style="margin-bottom: 45px;">
+            Active Sisters
+          </h1>
 
-          <h1 style="margin-bottom: 45px;">Active Sisters</h1>
+          <!-- Class selection buttons -->
+          <div
+            id="class_select"
+            class="row"
+            style="
+              margin-bottom: 50px;
+              justify-content: center;
+            "
+          >
+            <button
+              class="tablink button small"
+              onclick="openPage('ANu', this, 'white')"
+              id="defaultOpen"
+            >
+              Spring '24<br>
+              iota Alpha Nu
+            </button>
 
-          <div id="class_select" class="row" style="margin-bottom: 50px;justify-content: center;">
-            <!-- <button class="tablink button small" onclick="openPage('ATheta', this, 'white')">Fall '21<br>iota Alpha
-              Theta</button> -->
-            <!--<button class="tablink button small" onclick="openPage('AIota', this, 'white')" id="defaultOpen">Spring '22<br>iota Alpha
-              Iota</button> -->
-            <!-- <button class="tablink button small" onclick="openPage('AKappa', this, 'white')">Fall '22<br>iota Alpha
-              Kappa</button> -->
-            <button class="tablink button small" onclick="openPage('ALambda', this, 'white')" id="defaultOpen">Spring '23<br>iota Alpha
-              Lambda</button>
-             <button class="tablink button small" onclick="openPage('AAlpha', this, 'white')">Spring '23<br>Upsilon Alpha
-              Alpha</button> 
-            <button class="tablink button small" onclick="openPage('AMu', this, 'white')">Fall '23<br>iota Alpha Mu</button>
-            <button class="tablink button small" onclick="openPage('ANu', this, 'white')">Spring '24<br>iota Alpha Nu</button>
-            
-           <!-- <button class="tablink button small" onclick="openPage('AXi', this, 'white')">Fall '24<br>iota Alpha Xi</button> -->
-            
-            <button class="tablink button small" onclick="openPage('AOmicron', this, 'white')">Spring '25<br>iota Alpha Omicron</button>
-            <button class="tablink button small" onclick="openPage('APi', this, 'white')">Fall '25<br>iota Alpha Pi</button>
+            <button
+              class="tablink button small"
+              onclick="openPage('AOmicron', this, 'white')"
+            >
+              Spring '25<br>
+              iota Alpha Omicron
+            </button>
+
+            <button
+              class="tablink button small"
+              onclick="openPage('APi', this, 'white')"
+            >
+              Fall '25<br>
+              iota Alpha Pi
+            </button>
+
+            <button
+              class="tablink button small"
+              onclick="openPage('ARho', this, 'white')"
+            >
+              Spring '26<br>
+              iota Alpha Rho
+            </button>
           </div>
 
-          <!-- <div id="ATheta" class="tabcontent">
-            <div class="row">
-            </div>
-          </div> -->
-          <div id="AIota" class="tabcontent">
-            <div class="row">
-            </div>
-          </div>
-          <div id="AKappa" class="tabcontent">
-            <div class="row">
-            </div>
-          </div>
-          <div id="ALambda" class="tabcontent">
-            <div class="row">
-            </div>
-          </div>
-          <div id="AAlpha" class="tabcontent">
-            <div class="row">
-            </div>
-          </div>
-          <div id="AMu" class="tabcontent">
-            <div class="row">
-            </div>
-          </div>
-<!--           <div id="AAlpha" class="tabcontent">
-            <div class="row">
-            </div>
-          </div>
-          </div> -->
+          <!-- Alpha Nu -->
           <div id="ANu" class="tabcontent">
             <div class="row">
             </div>
           </div>
-          <!-- <div id="AXi" class="tabcontent">
-            <div class="row">
-            </div>
-          </div> -->
+
+          <!-- Alpha Omicron -->
           <div id="AOmicron" class="tabcontent">
             <div class="row">
             </div>
           </div>
+
+          <!-- Alpha Pi -->
           <div id="APi" class="tabcontent">
             <div class="row">
             </div>
+          </div>
 
+          <!-- Alpha Rho -->
+          <div id="ARho" class="tabcontent">
+            <div class="row">
+            </div>
+          </div>
+
+        </div>
       </section>
 
       <!-- Footer -->
       <footer id="footer">
         <div class="inner">
-          <ul class="icons">
-            <li><a href="https://www.facebook.com/cornellkpl" class="icon brands fa-facebook-f"><span
-                  class="label">Facebook</span></a></li>
-            <li><a href="https://www.instagram.com/cornellkpl/" class="icon brands fa-instagram"><span
-                  class="label">Instagram</span></a></li>
-            <li><a href="https://www.youtube.com/user/cornellkappas" class="icon brands fa-youtube"><span
-                  class="label">Youtube</span></a></li>
 
-            <li><a href="contact" class="button small next">contact us &nbsp;</a></li>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://www.facebook.com/cornellkpl"
+                class="icon brands fa-facebook-f"
+              >
+                <span class="label">Facebook</span>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.instagram.com/cornellkpl/"
+                class="icon brands fa-instagram"
+              >
+                <span class="label">Instagram</span>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.youtube.com/user/cornellkappas"
+                class="icon brands fa-youtube"
+              >
+                <span class="label">Youtube</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="contact" class="button small next">
+                contact us &nbsp;
+              </a>
+            </li>
           </ul>
+
           <ul class="copyright">
-            <li>&copy; 2020 Cornell University ΚΦΛ Kappa Phi Lambda Sorority, Incorporated <br>
-              Vivien Lee *clytemnestra* SPR19</li>
+            <li>
+              &copy; 2020 Cornell University ΚΦΛ
+              Kappa Phi Lambda Sorority, Incorporated
+              <br>
+              Vivien Lee *clytemnestra* SPR19
+            </li>
           </ul>
+
         </div>
       </footer>
 
     </div>
+  </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="assets/js/SP26activesisters.js"></script>
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script src="assets/js/FA26activesisters.js"></script>
 
 </body>
 
