@@ -1,87 +1,8 @@
 // ---------- SP26  Active Sisters (with image extension fallback) ----------
 data = [
-// alpha lambda
-  {
-    big: "Stephanie *VARA* Jung",
-    description: "waiting in line for ice cream at the dining halls",
-    ethnicity: "Korean",
-    first_name: "Jessica",
-    hometown: "Englewood Cliffs, NJ",
-    last_name: "Han",
-    line_number: 219,
-    little: "Gia *kesna* Kim",
-    major: "Human Biology, Health, and Society",
-    nickname: "rhôa",
-    semester: "Spring 2023",
-    year: 2026,
-  },
-
-// upsilon alpha alpha class 
-  {
-    big: "Kaitlynn *SAMURAI* Chen",
-    description: "at warren",
-    ethnicity: "Korean",
-    first_name: "Dylan",
-    hometown: "Queens, NY",
-    last_name: "Park",
-    line_number: 99,
-    little: "n/a",
-    major: "Information Science",
-    nickname: "BLOODSTRIKE",
-    semester: "Spring 2023",
-    year: 2026,
-  },
-
-  // alpha mu class 
-  {
-    big: "Sophia *Kumo* Teng",
-    description:
-      "In CTB buying myself a hot chai latte and an onion bagel with nova cream cheese",
-    ethnicity: "Cantonese",
-    first_name: "Olivia",
-    hometown: "Newton, Massachusetts",
-    last_name: "Wong",
-    line_number: 223,
-    little: "n/a",
-    major: "Human Biology, Health, and Society",
-    nickname: "Oyédo",
-    semester: "Fall 2023",
-    year: 2026,
-  },
-
-  {
-    big: "Elisa *audax* Kim",
-    description: "in line for coffee at one of the campus cafes",
-    ethnicity: "Thai",
-    first_name: "Neen",
-    hometown: "Bangkok, Thailand",
-    last_name: "Tangcharoenmonkong",
-    line_number: 226,
-    little: "Melody *reka* Tang",
-    major: "Design & Environmental Analysis",
-    nickname: "resalire",
-    semester: "Fall 2023",
-    year: 2026,
-  },
-  {
-    big: "Jasmine *Clairette* Eng",
-    description: "spending BRBs",
-    ethnicity: "Chinese",
-    first_name: "Rose",
-    hometown: "Shanghai, China",
-    last_name: "Liu",
-    line_number: 228,
-    little: "Colleen *Lilisé* Yu",
-    major: "Design & Environmental Analysis",
-    nickname: "eloise",
-    semester: "Fall 2023",
-    year: 2026,
-  },
-  
   // alpha nu class 
   {
     big: "Christine *enoki* Cho",
-    description: "crashing out",
     ethnicity: "Korean",
     first_name: "Abigail",
     hometown: "Los Angeles, CA",
@@ -94,28 +15,13 @@ data = [
     year: 2027,
   },
   {
-    big: "Ashley *yokan* An",
-    description: "taking a nap",
-    ethnicity: "Malaysian",
-    first_name: "Hallie",
-    hometown: "Queens, NY",
-    last_name: "Lai",
-    line_number: 232,
-    little: "Eunice *kaze* Rim",
-    major: "Human Biology Health & Society",
-    nickname: "tequi",
-    semester: "Spring 2024",
-    year: 2026,
-  },
-  {
     big: "Chelsea *kyem* Lin",
-    description: "procrastinating in my room 🤨",
     ethnicity: "Chinese",
     first_name: "Jolin",
     hometown: "Effingham, IL",
     last_name: "Jiang",
     line_number: 233,
-    little: "n/a",
+    little: "Joann *vasilisa* Lee",
     major: "Hotel Administration",
     nickname: "ambrette",
     semester: "Spring 2024",
@@ -123,7 +29,6 @@ data = [
   },
   {
     big: "Christine *enoki* Cho",
-    description: "Grinding at Cocktail Lounge",
     ethnicity: "Korean",
     first_name: "Esther",
     hometown: "Bellevue, WA",
@@ -137,13 +42,12 @@ data = [
   },
   {
     big: "Lyss *HESPEROS* Paek",
-    description: "in my dorm",
     ethnicity: "Korean",
     first_name: "Jiyin",
     hometown: "Johns Creek, GA",
     last_name: "You",
     line_number: 236,
-    little: "n/a",
+    little: "Jenny *lokani* Kim",
     major: "Human Biology, Health, and Society",
     nickname: "aythya",
     semester: "Spring 2024",
@@ -153,7 +57,6 @@ data = [
   // alpha omi class 
   {
     big: "Jessica *rhôa* Han",
-    description: "dying on the second floor of Mann Lib",
     ethnicity: "Korean",
     first_name: "Gia",
     hometown: "Cresskill, NJ",
@@ -167,7 +70,6 @@ data = [
   },
   {
     big: "Kelly *Sutera* Feng",
-    description: "in a thrift store or takin a nap 💤 ",
     ethnicity: "Chinese",
     first_name: "Gwendolyn",
     hometown: "Brooklyn, NY",
@@ -180,22 +82,7 @@ data = [
     year: 2028,
   },
   {
-    big: "Leah *cloudbreak* Han",
-    description: "at duff",
-    ethnicity: "Chinese",
-    first_name: "Sandra",
-    hometown: "Winchester, MA",
-    last_name: "Tang",
-    line_number: 242,
-    little: "n/a",
-    major: "Computer Science",
-    nickname: "santero",
-    semester: "Spring 2025",
-    year: 2028,
-  },
-  {
     big: "Julia *star sapphire* Masuda",
-    description: "napping in mann",
     ethnicity: "Chinese",
     first_name: "Kyra",
     hometown: "Honolulu, HI",
@@ -209,7 +96,6 @@ data = [
   },
   {
     big: "Kelly *Sutera* Feng",
-    description: "back of cocktail",
     ethnicity: "Chinese",
     first_name: "Emily",
     hometown: "NYC, NY",
@@ -223,7 +109,6 @@ data = [
   },
   {
     big: "Amber *roborare* Prasad",
-    description: "getting celsius",
     ethnicity: "Chinese",
     first_name: "Selina",
     hometown: "Johns Creek, GA",
@@ -236,22 +121,7 @@ data = [
     year: 2027,
   },
   {
-    big: "Leah *cloudbreak* Han",
-    description: "eating a snack",
-    ethnicity: "Chinese",
-    first_name: "Milly",
-    hometown: "Johns Creek, GA",
-    last_name: "Miao",
-    line_number: 247,
-    little: "n/a",
-    major: "Mechanical Engineering",
-    nickname: "iriséa",
-    semester: "Spring 2025",
-    year: 2028,
-  },
-  {
     big: "Venus *remaic* Zheng",
-    description: "Napping wherever possible",
     ethnicity: "Chinese",
     first_name: "Jessica",
     hometown: "Queens, NY",
@@ -267,7 +137,6 @@ data = [
   // alpha pi class 
   {
     big: "Hallie *tequi* Lai",
-    description: "tweaking at duff or olin",
     ethnicity: "Korean",
     first_name: "Eunice",
     hometown: "Queens, NY",
@@ -281,7 +150,6 @@ data = [
   },
   {
     big: "Joyce *Ilianthos* Chen",
-    description: "duff at night",
     ethnicity: "Chinese",
     first_name: "Angelina",
     hometown: "Long Island, NY",
@@ -295,7 +163,6 @@ data = [
   },
   {
     big: "Neen *resalire* Tangcharoenmonkong ",
-    description: "stargazing on da slope",
     ethnicity: "Taiwanese / Chinese ",
     first_name: "Melody",
     hometown: "Andover, Massachusetts",
@@ -309,7 +176,6 @@ data = [
   },
   {
     big: "Joy *kintarō* Om",
-    description: "fading people",
     ethnicity: "Chinese",
     first_name: "Tiffany",
     hometown: "Bayside, NY",
@@ -323,7 +189,6 @@ data = [
   },
   {
     big: "Dathy Orphéon Pham",
-    description: "trying new food spots",
     ethnicity: "Chinese",
     first_name: "Queenie",
     hometown: "Long Island, NY",
@@ -337,7 +202,6 @@ data = [
   },
   {
     big: "Rose *eloise* Liu",
-    description: "at my dorm",
     ethnicity: "Taiwanese / Chinese",
     first_name: "Colleen",
     hometown: "Bay Area, CA",
@@ -407,7 +271,7 @@ function displayClass(clss) {
                     <b><u>Hometown:</u></b> ${data[i].hometown}<br>
                     <b><u>Big:</u></b> ${data[i].big}<br>
                     <b><u>Little(s):</u></b> ${data[i].little}<br><br>
-                    <b><u>You will usually find me:<br></u></b> ${data[i].description}<br>
+  
                   </p>
                 </div>
               </div>
@@ -437,7 +301,7 @@ function displayClass(clss) {
                     <b><u>Hometown:</u></b> ${data[i].hometown}<br>
                     <b><u>Big:</u></b> ${data[i].big}<br>
                     <b><u>Little(s):</u></b> ${data[i].little}<br><br>
-                    <b><u>You will usually find me:<br></u></b> ${data[i].description}<br>
+                
                   </p>
                 </div>
               </div>
@@ -467,7 +331,7 @@ function displayClass(clss) {
                     <b><u>Hometown:</u></b> ${data[i].hometown}<br>
                     <b><u>Big:</u></b> ${data[i].big}<br>
                     <b><u>Little(s):</u></b> ${data[i].little}<br><br>
-                    <b><u>You will usually find me:<br></u></b> ${data[i].description}<br>
+                
                   </p>
                 </div>
               </div>
@@ -497,7 +361,7 @@ function displayClass(clss) {
                     <b><u>Hometown:</u></b> ${data[i].hometown}<br>
                     <b><u>Big:</u></b> ${data[i].big}<br>
                     <b><u>Little(s):</u></b> ${data[i].little}<br><br>
-                    <b><u>You will usually find me:<br></u></b> ${data[i].description}<br>
+                  
                   </p>
                 </div>
               </div>
@@ -527,7 +391,7 @@ function displayClass(clss) {
                     <b><u>Hometown:</u></b> ${data[i].hometown}<br>
                     <b><u>Big:</u></b> ${data[i].big}<br>
                     <b><u>Little(s):</u></b> ${data[i].little}<br><br>
-                    <b><u>You will usually find me:<br></u></b> ${data[i].description}<br>
+                    
                   </p>
                 </div>
               </div>
@@ -556,7 +420,7 @@ function displayClass(clss) {
                     <b><u>Hometown:</u></b> ${data[i].hometown}<br>
                     <b><u>Big:</u></b> ${data[i].big}<br>
                     <b><u>Little(s):</u></b> ${data[i].little}<br><br>
-                    <b><u>You will usually find me:<br></u></b> ${data[i].description}<br>
+                    
                   </p>
                 </div>
               </div>
