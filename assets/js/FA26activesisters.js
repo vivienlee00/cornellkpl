@@ -53,6 +53,47 @@ data = [
     year: 2027,
   },
 
+  // alpha xi class 
+   {
+    big: "Emily *evanthia* Chen",
+    ethnicity: "Korean",
+    first_name: "Nora",
+    hometown: "San Diego, CA",
+    last_name: "Park",
+    line_number: 237,
+    little: "n/a",
+    major: "Industrial and Labor Relations",
+    nickname: "tarū",
+    semester: "Fall 2024",
+    year: 2027,
+  },
+{
+    big: "Angie *Mitotique* Lee",
+    ethnicity: "Chinese",
+    first_name: "Maiya",
+    hometown: "Billings, MT",
+    last_name: "Easton",
+    line_number: 238,
+    little: "n/a",
+    major: "History and Governmen",
+    nickname: "clarion",
+    semester: "Fall 2024",
+    year: 2027,
+  },
+  {
+    big: "Monica *yūgen* Nguyenduy",
+    ethnicity: "Korean",
+    first_name: "Jaein",
+    hometown: " Queens, NY",
+    last_name: "Ku",
+    line_number: 239,
+    little: "n/a",
+    major: "Industrial and Labor Relations",
+    nickname: "kūrashi",
+    semester: "Fall 2024",
+    year: 2027,
+  },
+
   // alpha omicron class
   {
     big: "Jessica *rhôa* Han",
@@ -426,7 +467,55 @@ function displayClass(clss) {
       }
     }
   }
+if (clss == "AXi") {
+  var sem = "Fall 2024";
 
+  for (i = 0; i < data.length; i++) {
+    if (data[i].semester == sem) {
+      var sister = `
+        <div class="col-3 col-12-medium">
+          <div class="container">
+            <img
+              class="image"
+              src="images/activeroster/${folder}/${data[i].line_number}.jpg"
+              onerror="imgFallback(this, ${data[i].line_number}, '${folder}')"
+              alt="#${data[i].line_number} ${data[i].first_name} ${data[i].last_name}"
+            />
+
+            <div class="overlay">
+              <div class="text">
+                <h5>
+                  #${data[i].line_number}<br>
+                  ${data[i].first_name}
+                  *${data[i].nickname}*
+                  ${data[i].last_name}
+                </h5>
+
+                <p class="sisterDesc">
+                  <b><u>Major:</u></b>
+                  ${data[i].major} / ${data[i].year}<br>
+
+                  <b><u>Ethnicity:</u></b>
+                  ${data[i].ethnicity}<br>
+
+                  <b><u>Hometown:</u></b>
+                  ${data[i].hometown}<br>
+
+                  <b><u>Big:</u></b>
+                  ${data[i].big}<br>
+
+                  <b><u>Little(s):</u></b>
+                  ${data[i].little}<br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>`;
+
+      $("#" + clss + " .row").append(sister);
+    }
+  }
+}
   if (clss == "AOmicron") {
     var sem = "Spring 2025";
 
@@ -582,6 +671,7 @@ $(document).ready(function () {
   document.getElementById("defaultOpen").click();
 
   displayClass("ANu");
+  displayClass("AXi");
   displayClass("AOmicron");
   displayClass("APi");
   displayClass("ARho");

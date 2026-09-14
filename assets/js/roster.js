@@ -3673,6 +3673,7 @@ function displayRoster() {
     "Eta",
     "Theta",
     "Iota",
+    "Kappa",
     "Lambda",
     "Mu",
     "Nu",
