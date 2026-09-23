@@ -3495,64 +3495,8 @@ data = [
     semester: "Fall 2025",
     year: 2028,
   },
-  {
-    big: "Alyssa *Mace* Lee",
-    description: "",
-    ethnicity: "Taiwanese",
-    first_name: "Annie",
-    hometown: "",
-    last_name: "Kuo",
-    line_number: "epsilon Gamma, Fall 1999",
-    little: "Jody *Soleil* Sheu, Julie *Impulse* Kim, Rosa *Vertigo* Yun",
-    major: "",
-    nickname: "Ember",
-    semester: "Annex",
-    year: "",
-  },
-  {
-    big: "Betty *Lilac* Chang",
-    description: "",
-    ethnicity: "Chinese",
-    first_name: "Irene",
-    hometown: "",
-    last_name: "Tan",
-    line_number: "alpha Sigma, Fall 2003",
-    little: "Caitlin *Adieu* Date",
-    major: "Policy Analysis and Management",
-    nickname: "Femme",
-    semester: "Annex",
-    year: "",
-  },
-  {
-    big: "Jessica *Isidora* Chen",
-    description: "",
-    ethnicity: "Chinese",
-    first_name: "Shu Min",
-    hometown: "",
-    last_name: "Liang",
-    line_number: "theta Phi, Fall 2009",
-    little: "Emily *Faeri* Chiang",
-    major: "Policy Analysis and Management",
-    nickname: "Deva",
-    semester: "Annex",
-    year: 2012,
-  },
-  {
-    big: "Kaitlynn *SAMURAI* Chen",
-    description: "",
-    ethnicity: "Korean",
-    first_name: "Dylan",
-    hometown: "Queens, NY",
-    last_name: "Park",
-    line_number: "upsilon Alpha Alpha, Spring 2023",
-    little: "Alexa *ARMAMENT* Chen",
-    major: "Communication",
-    nickname: "BLOODSTRIKE",
-    semester: "Annex",
-    year: 2026,
-  },
-    // alpha rho class
-  {
+
+   {
     big: "Jiyin *aythya* You",
     ethnicity: "Korean",
     first_name: "Jenny",
@@ -3656,12 +3600,70 @@ data = [
     semester: "Spring 2026",
     year: 2029,
   },
+
+  {
+    big: "Alyssa *Mace* Lee",
+    description: "",
+    ethnicity: "Taiwanese",
+    first_name: "Annie",
+    hometown: "",
+    last_name: "Kuo",
+    line_number: "epsilon Gamma, Fall 1999",
+    little: "Jody *Soleil* Sheu, Julie *Impulse* Kim, Rosa *Vertigo* Yun",
+    major: "",
+    nickname: "Ember",
+    semester: "Annex",
+    year: "",
+  },
+  {
+    big: "Betty *Lilac* Chang",
+    description: "",
+    ethnicity: "Chinese",
+    first_name: "Irene",
+    hometown: "",
+    last_name: "Tan",
+    line_number: "alpha Sigma, Fall 2003",
+    little: "Caitlin *Adieu* Date",
+    major: "Policy Analysis and Management",
+    nickname: "Femme",
+    semester: "Annex",
+    year: "",
+  },
+  {
+    big: "Jessica *Isidora* Chen",
+    description: "",
+    ethnicity: "Chinese",
+    first_name: "Shu Min",
+    hometown: "",
+    last_name: "Liang",
+    line_number: "theta Phi, Fall 2009",
+    little: "Emily *Faeri* Chiang",
+    major: "Policy Analysis and Management",
+    nickname: "Deva",
+    semester: "Annex",
+    year: 2012,
+  },
+  {
+    big: "Kaitlynn *SAMURAI* Chen",
+    description: "",
+    ethnicity: "Korean",
+    first_name: "Dylan",
+    hometown: "Queens, NY",
+    last_name: "Park",
+    line_number: "upsilon Alpha Alpha, Spring 2023",
+    little: "Alexa *ARMAMENT* Chen",
+    major: "Communication",
+    nickname: "BLOODSTRIKE",
+    semester: "Annex",
+    year: 2026,
+  }
 ];
 
-//annex class needs to be at bottom of list
+// Annex displays after all regular classes.
 
 function displayRoster() {
   var sems = [];
+
   var classes = [
     "Charter",
     "Alpha",
@@ -3706,54 +3708,88 @@ function displayRoster() {
     "Alpha Pi",
     "Alpha Rho"
   ];
-  //add new classes to this list
 
-  for (i = 0; i < data.length; i++) {
-    if (!sems.includes(data[i].semester)) {
-      sems.push(data[i].semester);
-      if (data[i].semester == "Annex") {
-        $("#" + "infoo" + " .row").append(
-          '<div class="col-12 col-12-medium"><hr><h3>' +
-            data[i].semester +
-            "</h3></div>"
+  // Use the known class names for recent semesters instead of
+  // relying on the number of semesters encountered.
+  var correctedClasses = {
+    "Spring 2023": "Alpha Lambda",
+    "Fall 2023": "Alpha Mu",
+    "Spring 2024": "Alpha Nu",
+    "Fall 2024": "Alpha Xi",
+    "Spring 2025": "Alpha Omicron",
+    "Fall 2025": "Alpha Pi",
+    "Spring 2026": "Alpha Rho"
+  };
+
+  // Keep the original sister data, but display Annex at the end.
+  var rosterData = data
+    .filter(function (sister) {
+      return sister.semester !== "Annex";
+    })
+    .concat(
+      data.filter(function (sister) {
+        return sister.semester === "Annex";
+      })
+    );
+
+  for (var i = 0; i < rosterData.length; i++) {
+    var sisterData = rosterData[i];
+
+    if (!sems.includes(sisterData.semester)) {
+      sems.push(sisterData.semester);
+
+      if (sisterData.semester === "Annex") {
+        $("#infoo .row").append(
+          '<div class="col-12 col-12-medium"><hr><h3>Annex</h3></div>'
         );
       } else {
-        $("#" + "infoo" + " .row").append(
+        var className =
+          correctedClasses[sisterData.semester] ||
+          classes[sems.length - 1];
+
+        $("#infoo .row").append(
           '<div class="col-12 col-12-medium"><hr><h3>iota ' +
-            classes[sems.length - 1] +
+            className +
             ", " +
-            data[i].semester +
+            sisterData.semester +
             "</h3></div>"
         );
       }
     }
+
     var sister = `</br><div class="col-3 col-12-medium">
                         <div class="container">
-														<div class="text">`;
-    if (data[i].semester == "Annex") {
-      sister = sister.concat(`<h5>${data[i].line_number}`);
-    } else {
-      sister = sister.concat(`<h5>#${data[i].line_number}`);
-    }
-    sister =
-      sister.concat(`<br>${data[i].first_name} *${data[i].nickname}* ${data[i].last_name}</h5>
-                              <p class="sisterDesc">
-                                <b><u>Major:</u></b> ${data[i].major} / ${data[i].year}<br>
-																<b><u>Ethnicity:</u></b> ${data[i].ethnicity}<br>`);
+                            <div class="text">`;
 
-    if (data[i].hometown !== "") {
-      sister = sister.concat(`<b><u>Hometown:</u></b> ${data[i].hometown}<br>`);
+    if (sisterData.semester === "Annex") {
+      sister = sister.concat(`<h5>${sisterData.line_number}`);
+    } else {
+      sister = sister.concat(`<h5>#${sisterData.line_number}`);
     }
 
     sister = sister.concat(
-      `<b><u>Big:</u></b> ${data[i].big}<br>
-                                <b><u>Little(s):</u></b> ${data[i].little}<br><br>
+      `<br>${sisterData.first_name} *${sisterData.nickname}* ${sisterData.last_name}</h5>
+                              <p class="sisterDesc">
+                                <b><u>Major:</u></b> ${sisterData.major} / ${sisterData.year}<br>
+                                <b><u>Ethnicity:</u></b> ${sisterData.ethnicity}<br>`
+    );
+
+    if (sisterData.hometown !== "") {
+      sister = sister.concat(
+        `<b><u>Hometown:</u></b> ${sisterData.hometown}<br>`
+      );
+    }
+
+    sister = sister.concat(
+      `<b><u>Big:</u></b> ${sisterData.big}<br>
+                                <b><u>Little(s):</u></b> ${sisterData.little}<br><br>
                               </p>
                           </div>
                         </div>
                       </div>`
     );
-    $("#" + "infoo" + " .row").append(sister);
+
+    $("#infoo .row").append(sister);
   }
 }
 
