@@ -128,7 +128,7 @@ data = [
     hometown: "Honolulu, HI",
     last_name: "Lung",
     line_number: 243,
-    little: "n/a",
+    little: "Jaelyn *soléne* Chow",
     major: "Applied Economics and Management",
     nickname: "selphira",
     semester: "Spring 2025",
