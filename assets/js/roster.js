@@ -3151,7 +3151,7 @@ data = [
     hometown: "Williston Park, NY",
     last_name: "Om",
     line_number: 230,
-    little: "n/a",
+    little: "Tiffany *kaijin* Li",
     major: "Information Science",
     nickname: "kintarō",
     semester: "Spring 2024",
@@ -3179,7 +3179,7 @@ data = [
     hometown: "Queens, NY",
     last_name: "Lai",
     line_number: 232,
-    little: "n/a",
+    little: "Eunice *kaze* Rim",
     major: "Human Biology Health & Society",
     nickname: "tequi",
     semester: "Spring 2024",
@@ -3463,7 +3463,7 @@ data = [
     line_number: 252,
     little: "n/a",
     major: "Electrical and Computer Engineering",
-    nickname: "Kaijin",
+    nickname: "kaijin",
     semester: "Fall 2025",
     year: 2028,
   },
@@ -3712,14 +3712,27 @@ function displayRoster() {
   // Use the known class names for recent semesters instead of
   // relying on the number of semesters encountered.
   var correctedClasses = {
-    "Spring 2023": "Alpha Lambda",
-    "Fall 2023": "Alpha Mu",
-    "Spring 2024": "Alpha Nu",
-    "Fall 2024": "Alpha Xi",
-    "Spring 2025": "Alpha Omicron",
-    "Fall 2025": "Alpha Pi",
-    "Spring 2026": "Alpha Rho"
-  };
+  "Spring 2021": "Alpha Eta",
+  "Fall 2021": "Alpha Theta",
+  "Spring 2022": "Alpha Iota",
+  "Fall 2022": "Alpha Kappa",
+  "Spring 2023": "Alpha Lambda",
+  "Fall 2023": "Alpha Mu",
+  "Spring 2024": "Alpha Nu",
+  "Fall 2024": "Alpha Xi",
+  "Spring 2025": "Alpha Omicron",
+  "Fall 2025": "Alpha Pi",
+  "Spring 2026": "Alpha Rho"
+};
+
+// Label Amber's semester Alpha Zeta.
+var amber = data.find(function (sister) {
+  return Number(sister.line_number) === 178;
+});
+
+if (amber && amber.semester !== "Annex") {
+  correctedClasses[amber.semester] = "Alpha Zeta";
+}
 
   // Keep the original sister data, but display Annex at the end.
   var rosterData = data

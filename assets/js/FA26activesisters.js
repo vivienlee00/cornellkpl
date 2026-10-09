@@ -57,7 +57,7 @@ data = [
    {
     big: "Emily *evanthia* Chen",
     ethnicity: "Korean",
-    first_name: "Nora",
+    first_name: "Norah",
     hometown: "San Diego, CA",
     last_name: "Park",
     line_number: 237,
